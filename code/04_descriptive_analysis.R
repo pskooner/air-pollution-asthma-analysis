@@ -1,714 +1,316 @@
 # 04_descriptive_analysis.R
+# STEP 0: INSTALLATING PACKAGES AND LOADING LIBRARIES
+# install.packages(c("tidyverse","epitools","car","ResourceSelection","pROC","DescTools","MASS","brant","gtsummary","gt"))
 
-# Air Pollution and Asthma Burden in the United States
-
-# Purpose:
-# Generate descriptive statistics and exploratory visualizations for the
-# combined county-level AQI and asthma emergency department analytical dataset.
-
-# Input:
-#   data/processed/Combined_AQI_Asthma_2023_Cleaned.csv
-
-# Outputs:
-#   results/tables/dataset_summary.csv
-#   results/tables/categorical_summary.csv
-#   results/tables/continuous_summary.csv
-
-#   figures/categorical_variable_distributions.png
-#   figures/continuous_variable_boxplots.png
-
-# Author:
-#   Parminder S. Kooner
-
-# 1. LOAD REQUIRED PACKAGES
-
-library(readr)
+# Load libraries
+library(readxl)
 library(dplyr)
-library(tidyr)
 library(ggplot2)
+library(gtsummary)
+library(gt)
+library(vcd)
+library(tidyr)
 library(scales)
+library(DescTools)
+library(broom)
+library(MASS)
+library(ResourceSelection)
+library(pROC)
+library(car)
 
+# Set working directory
+setwd("data/processed")
 
-# 2. DEFINE FILE PATHS
+# STEP 1: LOADING DATA
+# Read dataset
+data <- read_excel("Combined_AQI_Asthma_2023_Cleaned.xlsx")
 
-input_file <-
-  "data/processed/Combined_AQI_Asthma_2023_Cleaned.csv"
+# Structure and summary
+str(data)
+summary(data)
 
-dataset_summary_file <-
-  "results/tables/dataset_summary.csv"
+# Create summary table
+# Load libraries
+library(readxl)
+library(dplyr)
+library(ggplot2)
+library(gtsummary)
+library(gt)
+library(vcd)
+library(tidyr)
+library(scales)
+library(DescTools)
+library(broom)
+library(MASS)
+library(ResourceSelection)
+library(pROC)
+library(car)
 
-categorical_summary_file <-
-  "results/tables/categorical_summary.csv"
+# Set working directory
+setwd("data/processed")
 
-continuous_summary_file <-
-  "results/tables/continuous_summary.csv"
+# STEP 1: LOADING DATA
+# Read dataset
+data <- read_excel("Combined_AQI_Asthma_2023_Cleaned.xlsx")
 
-figure1_file <-
-  "figures/categorical_variable_distributions.png"
+# Structure and summary
+str(data)
+summary(data)
 
-figure2_file <-
-  "figures/continuous_variable_boxplots.png"
+# Create summary table
+table1 <- data %>%
+  summarise(
+    `Number of Observations (County-Level)` = n(),
+    `Number of States` = n_distinct(State),
+    `Number of Counties` = n_distinct(State, County),
+    `Sex Categories` = n_distinct(Sex),
+    `Year` = unique(Year)
+  )
 
-# 3. IMPORT ANALYTICAL DATASET
+# Create publication-style table using gt
+table1_gt <- table1 %>%
+  gt() %>%
+  tab_header(
+    title = md("**Table 1. Summary of the Merged County-Level Dataset (United States, 2023)**")
+  ) %>%
+  cols_align(align = "center") %>%
+  tab_options(
+    table.font.size = 14,
+    heading.title.font.size = 16
+  )
 
-data <- read_csv(
-  input_file,
-  show_col_types = FALSE
-)
+# Display table
+table1_gt
 
+# Create publication-style table using gt
+table1_gt <- table1 %>%
+  gt() %>%
+  tab_header(
+    title = md("**Table 1. Summary of the Merged County-Level Dataset (United States, 2023)**")
+  ) %>%
+  cols_align(align = "center") %>%
+  tab_options(
+    table.font.size = 14,
+    heading.title.font.size = 16
+  )
 
-# Inspect structure
-glimpse(data)
+# Display table
+table1_gt
 
-# 4. FORMAT ANALYTICAL VARIABLES
+# STEP 2: DATA CLEANING AND CODING
+# Check original values
+unique(data$Asthma_ED_Status)
 
-# Re-establish factor ordering after importing the CSV file.
-
+# Convert variables
 data <- data %>%
   mutate(
-
-    AQI_Category = factor(
-      AQI_Category,
-      levels = c(
-        "Low",
-        "Moderate",
-        "High"
-      ),
-      ordered = TRUE
-    ),
-
-    Pollutant_Category = factor(
-      Pollutant_Category
-    ),
-
-    Sex = factor(
-      Sex,
-      levels = c(
-        "Female",
-        "Male"
-      )
-    ),
-
-    Asthma_ED_Status = factor(
-      Asthma_ED_Status,
-      levels = c(
-        "Not Elevated",
-        "Elevated"
-      )
-    )
+    Asthma_ED_Status = ifelse(Asthma_ED_Status == "Elevated", 1, 0),
+    AQI_Category = factor(AQI_Category, levels = c("Low","Moderate","High"), ordered = TRUE),
+    State = factor(State),
+    Pollutant_Category = factor(Pollutant_Category)
   )
 
-# 5. DATASET SUMMARY
+# Checking for missing data
+colSums(is.na(data))
 
-# Summarize the overall dimensions and geographic structure of the analytical
-# dataset.
+# SANITY CHECK
+# Check outcome distribution
+table(data$Asthma_ED_Status)
+summary(data$Asthma_ED_Status)
 
-dataset_summary <- data %>%
-  summarise(
+# Check AQI category distribution
+table(data$AQI_Category)
+levels(data$AQI_Category)
 
-    Number_of_Observations = n(),
+# Pollutant (nominal exposure)
+table(data$Pollutant_Category)
+levels(data$Pollutant_Category)
 
-    Number_of_States = n_distinct(State),
+# Do not collapse PM 10 
+# Rule 1: Collapse, if Count is <5
+# In this case, 16 > 5, so we will proceed as is
 
-    Number_of_Counties = n_distinct(
-      State,
-      County
-    ),
+# STEP 3: DESCRIPTIVE STATISTICS
+# Outcome Variable
+# Report % elevated asthma and Confidence interval
+prop.table(table(data$Asthma_ED_Status))
 
-    Sex_Categories = n_distinct(Sex),
+# One sample proportion test
+prop.test(sum(data$Asthma_ED_Status == 1), nrow(data))
 
-    Year = paste(
-      sort(unique(Year)),
-      collapse = ", "
-    )
-  )
+# Exposure Variables
+table(data$AQI_Category)
+prop.table(table(data$AQI_Category))
 
+# Pollutant Category
+table(data$Pollutant_Category)
+prop.table(table(data$Pollutant_Category))
 
-# Display
-dataset_summary
+# Additional Variable (Sex)
+table(data$Sex)
+prop.table(table(data$Sex))
 
+# Continuous variables
+summary(data$Annual_Weighted_AQI)
+summary(data$prop_unhealthy)
 
-# Export
-write_csv(
-  dataset_summary,
-  dataset_summary_file
-)
-
-# 6. DESCRIPTIVE STATISTICS FOR CATEGORICAL VARIABLES
-
-# Variables summarized:
-#
-#   - AQI Category
-#   - Pollutant Category
-#   - Sex
-#   - Asthma ED Status
-
-
-categorical_summary <- bind_rows(
-
-  data %>%
-    count(
-      AQI_Category,
-      name = "Count"
-    ) %>%
-    mutate(
-      Variable = "AQI Category",
-      Category = as.character(AQI_Category),
-      Percent = 100 * Count / sum(Count)
-    ) %>%
-    select(
-      Variable,
-      Category,
-      Count,
-      Percent
-    ),
-
-  data %>%
-    count(
-      Pollutant_Category,
-      name = "Count"
-    ) %>%
-    mutate(
-      Variable = "Pollutant Category",
-      Category = as.character(Pollutant_Category),
-      Percent = 100 * Count / sum(Count)
-    ) %>%
-    select(
-      Variable,
-      Category,
-      Count,
-      Percent
-    ),
-
-  data %>%
-    count(
-      Sex,
-      name = "Count"
-    ) %>%
-    mutate(
-      Variable = "Sex",
-      Category = as.character(Sex),
-      Percent = 100 * Count / sum(Count)
-    ) %>%
-    select(
-      Variable,
-      Category,
-      Count,
-      Percent
-    ),
-
-  data %>%
-    count(
-      Asthma_ED_Status,
-      name = "Count"
-    ) %>%
-    mutate(
-      Variable = "Asthma ED Status",
-      Category = as.character(Asthma_ED_Status),
-      Percent = 100 * Count / sum(Count)
-    ) %>%
-    select(
-      Variable,
-      Category,
-      Count,
-      Percent
-    )
-) %>%
-
+# Creating a table for categorical variables
+data <- data %>%
   mutate(
-    Percent = round(
-      Percent,
-      1
-    )
+    AQI_Category = factor(AQI_Category,
+                          levels = c("Low", "Moderate", "High"),
+                          ordered = TRUE),
+    
+    Pollutant_Category = factor(Pollutant_Category,
+                                levels = c("Ozone", "PM2.5", "PM10")),
+    
+    Sex = factor(Sex),
+    
+    Asthma_ED_Status = factor(Asthma_ED_Status,
+                              levels = c(0,1),
+                              labels = c("Not Elevated", "Elevated"))
   )
 
-
-# Display
-categorical_summary
-
-
-# Export
-write_csv(
-  categorical_summary,
-  categorical_summary_file
-)
-
-
-# 7. FIGURE 1 — DISTRIBUTION OF CATEGORICAL VARIABLES
-
-# Reshape categorical variables into long format.
-
-categorical_long <- data %>%
-  select(
-    AQI_Category,
-    Pollutant_Category,
-    Sex,
-    Asthma_ED_Status
-  ) %>%
-
-  mutate(
-    across(
-      everything(),
-      as.character
+# Creating TABLE 2
+table2 <- data %>%
+  dplyr::select(AQI_Category, Pollutant_Category, Sex, Asthma_ED_Status) %>%
+  tbl_summary(
+    statistic = list(all_categorical() ~ "{n} ({p}%)"),
+    label = list(
+      AQI_Category ~ "AQI Category",
+      Pollutant_Category ~ "Pollutant Category",
+      Sex ~ "Sex",
+      Asthma_ED_Status ~ "Asthma ED Status"
     )
   ) %>%
+  modify_header(label = "**Characteristic**") %>%
+  bold_labels() %>%
+  modify_caption(paste0("**Table 2. Descriptive Summary of Categorical Variables (N = ", nrow(data), ")**"))
 
-  pivot_longer(
-    cols = everything(),
+# View table
+table2
+
+# DOT PLOT
+# Convert to character BEFORE pivot
+long_data <- data %>%
+  dplyr::select(AQI_Category, Pollutant_Category, Sex, Asthma_ED_Status) %>%
+  dplyr::mutate(dplyr::across(dplyr::everything(), as.character)) %>%  
+  tidyr::pivot_longer(
+    cols = dplyr::everything(),
     names_to = "Variable",
     values_to = "Category"
-  ) %>%
-
-  mutate(
-
-    Variable = recode(
-      Variable,
-
-      AQI_Category =
-        "AQI Category",
-
-      Pollutant_Category =
-        "Pollutant Category",
-
-      Sex =
-        "Sex",
-
-      Asthma_ED_Status =
-        "Asthma ED Status"
-    )
   )
 
-
-# Calculate counts and percentages.
-
-categorical_plot_data <- categorical_long %>%
-
-  count(
-    Variable,
-    Category
-  ) %>%
-
-  group_by(
-    Variable
-  ) %>%
-
-  mutate(
-    Percent = n / sum(n)
-  ) %>%
-
-  ungroup()
-
-
-# Establish meaningful category ordering.
-
-categorical_plot_data <- categorical_plot_data %>%
-
-  mutate(
-
-    Category = case_when(
-
-      Variable == "AQI Category" ~
-        factor(
-          Category,
-          levels = c(
-            "Low",
-            "Moderate",
-            "High"
-          )
-        ),
-
-      Variable == "Pollutant Category" ~
-        factor(
-          Category,
-          levels = c(
-            "Ozone",
-            "PM2.5",
-            "PM10",
-            "CO",
-            "NO2",
-            "Mixed"
-          )
-        ),
-
-      Variable == "Asthma ED Status" ~
-        factor(
-          Category,
-          levels = c(
-            "Not Elevated",
-            "Elevated"
-          )
-        ),
-
-      Variable == "Sex" ~
-        factor(
-          Category,
-          levels = c(
-            "Female",
-            "Male"
-          )
-        ),
-
-      TRUE ~
-        factor(Category)
-    )
-  )
-
-
-# Generate Figure 1.
-
-figure1 <- ggplot(
-  categorical_plot_data,
-  aes(
-    x = Category,
-    y = Percent
-  )
-) +
-
-  geom_point(
-    size = 3
-  ) +
-
-  geom_text(
-    aes(
-      label = percent(
-        Percent,
-        accuracy = 0.1
-      )
+# Clean labels
+long_data <- long_data %>%
+  dplyr::mutate(
+    Variable = dplyr::recode(Variable,
+                             AQI_Category = "AQI Category",
+                             Pollutant_Category = "Pollutant Category",
+                             Sex = "Sex",
+                             Asthma_ED_Status = "Asthma ED Status"
     ),
-    hjust = -0.2,
-    size = 3
-  ) +
-
-  coord_flip() +
-
-  facet_wrap(
-    ~ Variable,
-    scales = "free_y"
-  ) +
-
-  scale_y_continuous(
-    labels = percent_format(),
-    expand = expansion(
-      mult = c(
-        0.02,
-        0.18
-      )
+    Category = dplyr::recode(Category,
+                             `0` = "Not Elevated",
+                             `1` = "Elevated"
     )
-  ) +
+  )
 
+# Counts + percentages
+plot_data <- long_data %>%
+  dplyr::count(Variable, Category) %>%
+  dplyr::group_by(Variable) %>%
+  dplyr::mutate(percent = n / sum(n)) %>%
+  dplyr::ungroup()
+
+# Reapply ordering
+plot_data <- plot_data %>%
+  mutate(
+    Category = case_when(
+      Variable == "AQI Category" ~ factor(Category, levels = c("Low", "Moderate", "High")),
+      Variable == "Pollutant Category" ~ factor(Category, levels = c("Ozone", "PM2.5", "PM10")),
+      Variable == "Asthma ED Status" ~ factor(Category, levels = c("Not Elevated", "Elevated")),
+      TRUE ~ factor(Category)
+    )
+  )
+
+# Plot
+ggplot(plot_data, aes(x = Category, y = percent)) +
+  geom_point(size = 3) +
+  geom_text(aes(label = percent(percent, accuracy = 0.1)),
+            hjust = -0.2, size = 3) +
+  coord_flip() +
+  facet_wrap(~ Variable, scales = "free_y") +
+  scale_y_continuous(labels = percent_format()) +
   labs(
-    title =
-      "Distribution of Categorical Variables",
-    x = NULL,
+    title = "Figure 1: Distribution of Categorical Variables",
+    x = "",
     y = "Percentage"
   ) +
-
   theme_classic() +
-
   theme(
-
-    strip.text =
-      element_text(
-        face = "bold"
-      ),
-
-    plot.title =
-      element_text(
-        hjust = 0.5,
-        face = "bold"
-      )
+    strip.text = element_text(face = "bold"),
+    plot.title = element_text(hjust = 0.5)
   )
 
-
-# Display
-figure1
-
-
-# Save
-ggsave(
-  filename = figure1_file,
-  plot = figure1,
-  width = 10,
-  height = 7,
-  dpi = 300
-)
-
-# 8. DESCRIPTIVE STATISTICS FOR CONTINUOUS VARIABLES
-
-# Continuous variables:
-#
-#   - Proportion of Unhealthy Days
-#   - Asthma ED Visit Rate
-#   - Annual Weighted AQI
-
-
-continuous_summary <- tibble(
-
-  Variable = c(
-    "Proportion Unhealthy Days",
-    "Asthma ED Visit Rate",
-    "Annual Weighted AQI"
-  ),
-
-  Mean = c(
-
-    mean(
-      data$prop_unhealthy,
-      na.rm = TRUE
+# TABLE 3: Continuous Variables
+table3 <- data %>%
+  dplyr::select(prop_unhealthy, Asthma_ED_Rate, Annual_Weighted_AQI) %>%
+  gtsummary::tbl_summary(
+    type = all_continuous() ~ "continuous2",
+    statistic = all_continuous() ~ c(
+      "{mean} ({sd})",
+      "{median}",
+      "{min} – {max}"
     ),
-
-    mean(
-      data$Asthma_ED_Rate,
-      na.rm = TRUE
-    ),
-
-    mean(
-      data$Annual_Weighted_AQI,
-      na.rm = TRUE
+    digits = all_continuous() ~ 2,
+    label = list(
+      prop_unhealthy ~ "Proportion Unhealthy Days",
+      Asthma_ED_Rate ~ "Asthma ED Visit Rate",
+      Annual_Weighted_AQI ~ "Annual Weighted AQI"
     )
-  ),
-
-  SD = c(
-
-    sd(
-      data$prop_unhealthy,
-      na.rm = TRUE
-    ),
-
-    sd(
-      data$Asthma_ED_Rate,
-      na.rm = TRUE
-    ),
-
-    sd(
-      data$Annual_Weighted_AQI,
-      na.rm = TRUE
-    )
-  ),
-
-  Median = c(
-
-    median(
-      data$prop_unhealthy,
-      na.rm = TRUE
-    ),
-
-    median(
-      data$Asthma_ED_Rate,
-      na.rm = TRUE
-    ),
-
-    median(
-      data$Annual_Weighted_AQI,
-      na.rm = TRUE
-    )
-  ),
-
-  Minimum = c(
-
-    min(
-      data$prop_unhealthy,
-      na.rm = TRUE
-    ),
-
-    min(
-      data$Asthma_ED_Rate,
-      na.rm = TRUE
-    ),
-
-    min(
-      data$Annual_Weighted_AQI,
-      na.rm = TRUE
-    )
-  ),
-
-  Maximum = c(
-
-    max(
-      data$prop_unhealthy,
-      na.rm = TRUE
-    ),
-
-    max(
-      data$Asthma_ED_Rate,
-      na.rm = TRUE
-    ),
-
-    max(
-      data$Annual_Weighted_AQI,
-      na.rm = TRUE
-    )
-  )
-) %>%
-
-  mutate(
-    across(
-      where(is.numeric),
-      ~ round(.x, 3)
-    )
-  )
-
-
-# Display
-continuous_summary
-
-
-# Export
-write_csv(
-  continuous_summary,
-  continuous_summary_file
-)
-
-# 9. FIGURE 2 — BOX PLOTS OF CONTINUOUS VARIABLES
-
-continuous_long <- data %>%
-
-  select(
-    Annual_Weighted_AQI,
-    Asthma_ED_Rate,
-    prop_unhealthy
   ) %>%
+  gtsummary::modify_header(label = "**Characteristic**") %>%
+  gtsummary::bold_labels() %>%
+  gtsummary::modify_caption(
+    paste0("**Table 3. Summary of Continuous Variables (N = ", nrow(data), ")**")
+  )
 
-  pivot_longer(
+# Viewing table
+table3
 
-    cols = everything(),
-
+# Box Plots for Continuous Variables
+# Reshaping the data
+long_cont <- data %>%
+  dplyr::select(Annual_Weighted_AQI, Asthma_ED_Rate, prop_unhealthy) %>%
+  tidyr::pivot_longer(
+    cols = dplyr::everything(),
     names_to = "Variable",
-
     values_to = "Value"
   ) %>%
-
-  mutate(
-
-    Variable = recode(
-
-      Variable,
-
-      Annual_Weighted_AQI =
-        "Annual Weighted AQI",
-
-      Asthma_ED_Rate =
-        "Asthma ED Visit Rate",
-
-      prop_unhealthy =
-        "Proportion Unhealthy Days"
+  dplyr::mutate(
+    Variable = dplyr::recode(Variable,
+                             Annual_Weighted_AQI = "Annual Weighted AQI",
+                             Asthma_ED_Rate = "Asthma ED Visit Rate",
+                             prop_unhealthy = "Proportion Unhealthy Days"
     )
   )
 
-
-# Generate Figure 2.
-
-figure2 <- ggplot(
-  continuous_long,
-  aes(
-    x = "",
-    y = Value
-  )
-) +
-
-  geom_boxplot(
-    fill = "gray85",
-    color = "black"
-  ) +
-
-  stat_summary(
-    fun = mean,
-    geom = "point",
-    shape = 18,
-    size = 3
-  ) +
-
-  facet_wrap(
-    ~ Variable,
-    scales = "free_y"
-  ) +
-
+# Plot
+ggplot(long_cont, aes(x = "", y = Value)) +
+  geom_boxplot(fill = "gray85", color = "black") +
+  stat_summary(fun = mean, geom = "point", shape = 18, size = 3) +
+  facet_wrap(~ Variable, scales = "free_y") +
   labs(
-    title =
-      "Box Plots of Continuous Variables",
-    x = NULL,
-    y = NULL
+    title = "Figure 2. Box Plots of Continuous Variables",
+    x = "",
+    y = ""
   ) +
-
   theme_classic() +
-
   theme(
-
-    plot.title =
-      element_text(
-        hjust = 0.5,
-        face = "bold"
-      ),
-
-    strip.text =
-      element_text(
-        face = "bold"
-      ),
-
-    axis.text.x =
-      element_blank(),
-
-    axis.ticks.x =
-      element_blank(),
-
-    panel.border =
-      element_rect(
-        color = "black",
-        fill = NA
-      )
+    plot.title = element_text(hjust = 0.5, face = "bold"),
+    strip.text = element_text(face = "bold"),
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    panel.border = element_rect(color = "black", fill = NA)
   )
-
-
-# Display
-figure2
-
-
-# Save
-ggsave(
-  filename = figure2_file,
-  plot = figure2,
-  width = 10,
-  height = 7,
-  dpi = 300
-)
-
-# 10. FINAL CHECK
-
-message(
-  "Descriptive analysis complete."
-)
-
-message(
-  paste(
-    "Dataset summary saved to:",
-    dataset_summary_file
-  )
-)
-
-message(
-  paste(
-    "Categorical summary saved to:",
-    categorical_summary_file
-  )
-)
-
-message(
-  paste(
-    "Continuous summary saved to:",
-    continuous_summary_file
-  )
-)
-
-message(
-  paste(
-    "Figure 1 saved to:",
-    figure1_file
-  )
-)
-
-message(
-  paste(
-    "Figure 2 saved to:",
-    figure2_file
-  )
-)
