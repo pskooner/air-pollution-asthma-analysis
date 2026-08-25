@@ -1,405 +1,77 @@
 # 06_stratified_analysis.R
-
-# Air Pollution and Asthma Burden in the United States
-
-# Purpose:
-# Evaluate the association between AQI category and elevated asthma emergency
-# department (ED) burden after stratification by sex and state.
-
-# Statistical methods:
-#   - Stratified contingency tables
-#   - Row percentages
-#   - Cochran-Mantel-Haenszel (CMH) tests
-
-# Input:
-#   data/processed/Combined_AQI_Asthma_2023_Cleaned.csv
-
-# Outputs:
-#   results/tables/aqi_asthma_by_sex.csv
-#   results/tables/cmh_adjusted_for_sex.csv
-#   results/tables/aqi_asthma_by_state.csv
-#   results/tables/cmh_adjusted_for_state.csv
-
-# Author:
-#   Parminder S. Kooner
-
-# 1. LOAD REQUIRED PACKAGES
-
-library(readr)
-library(dplyr)
-library(tidyr)
-library(broom)
-
-# 2. DEFINE FILE PATHS
-
-input_file <-
-  "data/processed/Combined_AQI_Asthma_2023_Cleaned.csv"
-
-sex_table_file <-
-  "results/tables/aqi_asthma_by_sex.csv"
-
-cmh_sex_file <-
-  "results/tables/cmh_adjusted_for_sex.csv"
-
-state_table_file <-
-  "results/tables/aqi_asthma_by_state.csv"
-
-cmh_state_file <-
-  "results/tables/cmh_adjusted_for_state.csv"
-
-
-# 3. IMPORT ANALYTICAL DATASET
-
-data <- read_csv(
-  input_file,
-  show_col_types = FALSE
-)
-
-# 4. FORMAT ANALYTICAL VARIABLES
-
-data <- data %>%
-  mutate(
-
-    AQI_Category = factor(
-      AQI_Category,
-      levels = c(
-        "Low",
-        "Moderate",
-        "High"
-      ),
-      ordered = TRUE
-    ),
-
-    Asthma_ED_Status = factor(
-      Asthma_ED_Status,
-      levels = c(
-        "Not Elevated",
-        "Elevated"
-      )
-    ),
-
-    Sex = factor(
-      Sex
-    ),
-
-    State = factor(
-      State
-    )
-  )
-
-# PART A — STRATIFIED ANALYSIS BY SEX
-
-# 5. CREATE AQI × ASTHMA × SEX CONTINGENCY TABLE
-
-aqi_asthma_sex_table <- xtabs(
-  ~ AQI_Category + Asthma_ED_Status + Sex,
-  data = data
-)
-
+# STEP 5: STRATIFIED ANALYSIS (BY Sex)
+# Create 3D contingency table (AQI x Asthma x Sex)
+aqi_asthma_sex_table <- xtabs(~ AQI_Category + Asthma_ED_Status + Sex, data = data)
 aqi_asthma_sex_table
 
+# Table
+df_3d <- as.data.frame(aqi_asthma_sex_table)
 
-# 6. CREATE TIDY SEX-STRATIFIED TABLE
-
-aqi_asthma_by_sex <- as.data.frame(
-  aqi_asthma_sex_table
-) %>%
-
-  rename(
-    Count = Freq
-  ) %>%
-
-  group_by(
-    Sex,
-    AQI_Category
-  ) %>%
-
-  mutate(
-    Row_Percent = 100 * Count / sum(Count)
-  ) %>%
-
-  ungroup() %>%
-
-  mutate(
-    Row_Percent = round(
-      Row_Percent,
-      1
-    )
+table10 <- df_3d %>%
+  pivot_wider(names_from = Asthma_ED_Status, values_from = Freq) %>%
+  arrange(Sex, AQI_Category) %>%
+  gt(groupname_col = "Sex") %>%
+  tab_header(
+    title = md("**Table 10. AQI Category and Asthma ED Status, Stratified by Sex**")
   )
 
+table10
 
-aqi_asthma_by_sex
+# Row Percentages
+# Males
+prop.table(
+  table(data$AQI_Category[data$Sex == "Male"],
+        data$Asthma_ED_Status[data$Sex == "Male"]), 1)
+# Females
+prop.table(
+  table(data$AQI_Category[data$Sex == "Female"],
+        data$Asthma_ED_Status[data$Sex == "Female"]), 1)
 
+# Cochran–Mantel–Haenszel (CMH) test: stratifying variable - sex
+cmh_res <- mantelhaen.test(aqi_asthma_sex_table)
 
-# Export Table 10 data.
+# Table
+table11 <- broom::tidy(cmh_res) %>%
+  dplyr::select(statistic, parameter, p.value) %>%
+  dplyr::mutate(
+    statistic = round(statistic, 2),
+    p.value = ifelse(p.value < 0.001, "<0.001", round(p.value, 3))
+  ) %>%
+  dplyr::rename(
+    `CMH Chi-Square` = statistic,
+    `Degrees of Freedom` = parameter,
+    `p-value` = p.value
+  ) %>%
+  gt() %>%
+  tab_header(
+    title = md("**Table 11. Cochran–Mantel–Haenszel Test of Association Between AQI Category and Asthma ED Status, Adjusted for Sex**")
+  ) %>%
+  cols_align(align = "center")
 
-write_csv(
-  aqi_asthma_by_sex,
-  sex_table_file
-)
+table11
 
-
-# 7. DISPLAY SEX-SPECIFIC ROW PROPORTIONS
-
-# Male observations
-
-male_table <- table(
-  data$AQI_Category[
-    data$Sex == "Male"
-  ],
-  data$Asthma_ED_Status[
-    data$Sex == "Male"
-  ]
-)
-
-male_row_proportions <- prop.table(
-  male_table,
-  margin = 1
-)
-
-male_row_proportions
-
-
-# Female observations
-
-female_table <- table(
-  data$AQI_Category[
-    data$Sex == "Female"
-  ],
-  data$Asthma_ED_Status[
-    data$Sex == "Female"
-  ]
-)
-
-female_row_proportions <- prop.table(
-  female_table,
-  margin = 1
-)
-
-female_row_proportions
-
-
-# 8. COCHRAN-MANTEL-HAENSZEL TEST ADJUSTED FOR SEX
-
-# The CMH test evaluates whether the association between AQI category and
-# asthma ED status persists after stratifying by sex.
-
-cmh_sex <- mantelhaen.test(
-  aqi_asthma_sex_table
-)
-
-cmh_sex
-
-
-# Extract results.
-
-cmh_sex_result <- tibble(
-
-  Adjustment =
-    "Sex",
-
-  Statistic =
-    as.numeric(
-      cmh_sex$statistic
-    ),
-
-  Degrees_of_Freedom =
-    as.numeric(
-      cmh_sex$parameter
-    ),
-
-  P_Value =
-    cmh_sex$p.value
-) %>%
-
-  mutate(
-
-    Statistic = round(
-      Statistic,
-      3
-    ),
-
-    Degrees_of_Freedom = round(
-      Degrees_of_Freedom,
-      0
-    ),
-
-    P_Value = round(
-      P_Value,
-      6
-    )
-  )
-
-
-cmh_sex_result
-
-
-# Export Table 11 result.
-
-write_csv(
-  cmh_sex_result,
-  cmh_sex_file
-)
-
-# PART B — STRATIFIED ANALYSIS BY STATE
-
-# 9. CREATE AQI × ASTHMA × STATE CONTINGENCY TABLE
-
-aqi_asthma_state_table <- xtabs(
-  ~ AQI_Category + Asthma_ED_Status + State,
-  data = data
-)
-
+#2. STRATIFIED ANALYSIS (BY State)
+# Create 3D table: AQI x Asthma x State
+aqi_asthma_state_table <- xtabs(~ AQI_Category + Asthma_ED_Status + State, data = data)
 aqi_asthma_state_table
+# CMH test (adjusting for State)
+cmh_state <- mantelhaen.test(aqi_asthma_state_table)
 
-
-# 10. CREATE TIDY STATE-STRATIFIED TABLE
-
-aqi_asthma_by_state <- as.data.frame(
-  aqi_asthma_state_table
-) %>%
-
-  rename(
-    Count = Freq
+table14 <- broom::tidy(cmh_state) %>%
+  dplyr::select(statistic, parameter, p.value) %>%
+  dplyr::mutate(
+    statistic = round(statistic, 2),
+    p.value = ifelse(p.value < 0.001, "<0.001", round(p.value, 3))
   ) %>%
-
-  group_by(
-    State,
-    AQI_Category
+  dplyr::rename(
+    `CMH Chi-Square` = statistic,
+    `Degrees of Freedom` = parameter,
+    `p-value` = p.value
   ) %>%
-
-  mutate(
-    Row_Percent = ifelse(
-      sum(Count) > 0,
-      100 * Count / sum(Count),
-      NA_real_
-    )
+  gt() %>%
+  tab_header(
+    title = md("**Table 12. Cochran–Mantel–Haenszel Test Adjusted for State**")
   ) %>%
+  cols_align(align = "center")
 
-  ungroup() %>%
-
-  mutate(
-    Row_Percent = round(
-      Row_Percent,
-      1
-    )
-  )
-
-
-aqi_asthma_by_state
-
-
-write_csv(
-  aqi_asthma_by_state,
-  state_table_file
-)
-
-
-# 11. COCHRAN-MANTEL-HAENSZEL TEST ADJUSTED FOR STATE
-
-# State is treated as the stratification variable to evaluate whether the
-# observed AQI-asthma association persists after accounting for geographic
-# differences across states.
-
-cmh_state <- mantelhaen.test(
-  aqi_asthma_state_table
-)
-
-cmh_state
-
-
-# Extract results.
-
-cmh_state_result <- tibble(
-
-  Adjustment =
-    "State",
-
-  Statistic =
-    as.numeric(
-      cmh_state$statistic
-    ),
-
-  Degrees_of_Freedom =
-    as.numeric(
-      cmh_state$parameter
-    ),
-
-  P_Value =
-    cmh_state$p.value
-) %>%
-
-  mutate(
-
-    Statistic = round(
-      Statistic,
-      3
-    ),
-
-    Degrees_of_Freedom = round(
-      Degrees_of_Freedom,
-      0
-    ),
-
-    P_Value = round(
-      P_Value,
-      6
-    )
-  )
-
-
-cmh_state_result
-
-
-# Export Table 12 result.
-
-write_csv(
-  cmh_state_result,
-  cmh_state_file
-)
-
-
-# 12. COMPARE SEX- AND STATE-ADJUSTED RESULTS
-
-cmh_comparison <- bind_rows(
-  cmh_sex_result,
-  cmh_state_result
-)
-
-cmh_comparison
-
-
-# 13. FINAL SUMMARY
-
-message(
-  "Stratified analysis complete."
-)
-
-message(
-  paste(
-    "Sex-stratified contingency table saved to:",
-    sex_table_file
-  )
-)
-
-message(
-  paste(
-    "Sex-adjusted CMH results saved to:",
-    cmh_sex_file
-  )
-)
-
-message(
-  paste(
-    "State-stratified contingency table saved to:",
-    state_table_file
-  )
-)
-
-message(
-  paste(
-    "State-adjusted CMH results saved to:",
-    cmh_state_file
-  )
-)
-
+table14
