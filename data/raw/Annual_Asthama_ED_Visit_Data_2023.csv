@@ -1,0 +1,1627 @@
+StateFIPS,State,CountyFIPS,County,Year,Asthma_ED_Rate,Data Comment,Sex
+4,Arizona,4001,Apache,2023,27.2,,Male
+4,Arizona,4001,Apache,2023,30.1,,Female
+4,Arizona,4003,Cochise,2023,28.8,,Male
+4,Arizona,4003,Cochise,2023,32.8,,Female
+4,Arizona,4005,Coconino,2023,22.4,,Male
+4,Arizona,4005,Coconino,2023,31.6,,Female
+4,Arizona,4007,Gila,2023,30.6,,Male
+4,Arizona,4007,Gila,2023,31.3,,Female
+4,Arizona,4009,Graham,2023,27.4,,Male
+4,Arizona,4009,Graham,2023,32.5,,Female
+4,Arizona,4011,Greenlee,2023,33.4,,Male
+4,Arizona,4011,Greenlee,2023,39.2,,Female
+4,Arizona,4012,La Paz,2023,31.7,,Male
+4,Arizona,4012,La Paz,2023,32.5,,Female
+4,Arizona,4013,Maricopa,2023,30.7,,Male
+4,Arizona,4013,Maricopa,2023,32.1,,Female
+4,Arizona,4015,Mohave,2023,21.6,,Male
+4,Arizona,4015,Mohave,2023,32,,Female
+4,Arizona,4017,Navajo,2023,23.1,,Male
+4,Arizona,4017,Navajo,2023,24.9,,Female
+4,Arizona,4019,Pima,2023,31.1,,Male
+4,Arizona,4019,Pima,2023,32.2,,Female
+4,Arizona,4021,Pinal,2023,30.9,,Male
+4,Arizona,4021,Pinal,2023,31.8,,Female
+4,Arizona,4023,Santa Cruz,2023,28.4,,Male
+4,Arizona,4023,Santa Cruz,2023,32.9,,Female
+4,Arizona,4025,Yavapai,2023,31,,Male
+4,Arizona,4025,Yavapai,2023,31.8,,Female
+4,Arizona,4027,Yuma,2023,31.4,,Male
+4,Arizona,4027,Yuma,2023,31.9,,Female
+12,Florida,12001,Alachua,2023,51.6,,Male
+12,Florida,12001,Alachua,2023,61.7,,Female
+12,Florida,12003,Baker,2023,59.4,,Male
+12,Florida,12003,Baker,2023,67.2,,Female
+12,Florida,12005,Bay,2023,32.7,,Male
+12,Florida,12005,Bay,2023,48.7,,Female
+12,Florida,12007,Bradford,2023,44.2,,Male
+12,Florida,12007,Bradford,2023,53.3,,Female
+12,Florida,12009,Brevard,2023,44.5,,Male
+12,Florida,12009,Brevard,2023,53.2,,Female
+12,Florida,12011,Broward,2023,45.9,,Male
+12,Florida,12011,Broward,2023,49.9,,Female
+12,Florida,12013,Calhoun,2023,44.5,,Male
+12,Florida,12013,Calhoun,2023,65.4,,Female
+12,Florida,12015,Charlotte,2023,36.6,,Male
+12,Florida,12015,Charlotte,2023,40.8,,Female
+12,Florida,12017,Citrus,2023,42.9,,Male
+12,Florida,12017,Citrus,2023,54.8,,Female
+12,Florida,12019,Clay,2023,54.4,,Male
+12,Florida,12019,Clay,2023,60.9,,Female
+12,Florida,12021,Collier,2023,46.1,,Male
+12,Florida,12021,Collier,2023,50,,Female
+12,Florida,12023,Columbia,2023,47.4,,Male
+12,Florida,12023,Columbia,2023,56.7,,Female
+12,Florida,12027,DeSoto,2023,29.9,,Male
+12,Florida,12027,DeSoto,2023,38.1,,Female
+12,Florida,12029,Dixie,2023,26.8,,Male
+12,Florida,12029,Dixie,2023,38.2,,Female
+12,Florida,12031,Duval,2023,52.9,,Male
+12,Florida,12031,Duval,2023,58.9,,Female
+12,Florida,12033,Escambia,2023,46.6,,Male
+12,Florida,12033,Escambia,2023,56.5,,Female
+12,Florida,12035,Flagler,2023,34.4,,Male
+12,Florida,12035,Flagler,2023,40.8,,Female
+12,Florida,12037,Franklin,2023,25.9,,Male
+12,Florida,12037,Franklin,2023,44.8,,Female
+12,Florida,12039,Gadsden,2023,46.9,,Male
+12,Florida,12039,Gadsden,2023,56.6,,Female
+12,Florida,12041,Gilchrist,2023,46.3,,Male
+12,Florida,12041,Gilchrist,2023,53.5,,Female
+12,Florida,12043,Glades,2023,40.2,,Male
+12,Florida,12043,Glades,2023,43.4,,Female
+12,Florida,12045,Gulf,2023,33.9,,Male
+12,Florida,12045,Gulf,2023,57.7,,Female
+12,Florida,12047,Hamilton,2023,56,,Male
+12,Florida,12047,Hamilton,2023,71.4,,Female
+12,Florida,12049,Hardee,2023,46.6,,Male
+12,Florida,12049,Hardee,2023,55.9,,Female
+12,Florida,12051,Hendry,2023,44.4,,Male
+12,Florida,12051,Hendry,2023,47.2,,Female
+12,Florida,12053,Hernando,2023,28.9,,Male
+12,Florida,12053,Hernando,2023,39.3,,Female
+12,Florida,12055,Highlands,2023,56.3,,Male
+12,Florida,12055,Highlands,2023,72.8,,Female
+12,Florida,12057,Hillsborough,2023,42.9,,Male
+12,Florida,12057,Hillsborough,2023,50.7,,Female
+12,Florida,12059,Holmes,2023,30.7,,Male
+12,Florida,12059,Holmes,2023,37.6,,Female
+12,Florida,12061,Indian River,2023,43.7,,Male
+12,Florida,12061,Indian River,2023,53.1,,Female
+12,Florida,12063,Jackson,2023,42.5,,Male
+12,Florida,12063,Jackson,2023,62.1,,Female
+12,Florida,12065,Jefferson,2023,38.5,,Male
+12,Florida,12065,Jefferson,2023,46.3,,Female
+12,Florida,12067,Lafayette,2023,36.8,,Male
+12,Florida,12067,Lafayette,2023,53.5,,Female
+12,Florida,12069,Lake,2023,50.1,,Male
+12,Florida,12069,Lake,2023,60.7,,Female
+12,Florida,12071,Lee,2023,36.2,,Male
+12,Florida,12071,Lee,2023,38.7,,Female
+12,Florida,12073,Leon,2023,43.9,,Male
+12,Florida,12073,Leon,2023,53.7,,Female
+12,Florida,12075,Levy,2023,46.7,,Male
+12,Florida,12075,Levy,2023,56.5,,Female
+12,Florida,12077,Liberty,2023,43.7,,Male
+12,Florida,12077,Liberty,2023,54.3,,Female
+12,Florida,12079,Madison,2023,44,,Male
+12,Florida,12079,Madison,2023,57.4,,Female
+12,Florida,12081,Manatee,2023,44.2,,Male
+12,Florida,12081,Manatee,2023,52,,Female
+12,Florida,12083,Marion,2023,43.4,,Male
+12,Florida,12083,Marion,2023,52.3,,Female
+12,Florida,12085,Martin,2023,42,,Male
+12,Florida,12085,Martin,2023,45,,Female
+12,Florida,12086,Miami-Dade,2023,46.8,,Male
+12,Florida,12086,Miami-Dade,2023,51.4,,Female
+12,Florida,12087,Monroe,2023,42.6,,Male
+12,Florida,12087,Monroe,2023,47.7,,Female
+12,Florida,12089,Nassau,2023,64.3,,Male
+12,Florida,12089,Nassau,2023,69.9,,Female
+12,Florida,12091,Okaloosa,2023,26.1,,Male
+12,Florida,12091,Okaloosa,2023,34.1,,Female
+12,Florida,12093,Okeechobee,2023,49.4,,Male
+12,Florida,12093,Okeechobee,2023,57.7,,Female
+12,Florida,12095,Orange,2023,47,,Male
+12,Florida,12095,Orange,2023,56.8,,Female
+12,Florida,12097,Osceola,2023,49,,Male
+12,Florida,12097,Osceola,2023,60.1,,Female
+12,Florida,12099,Palm Beach,2023,47.4,,Male
+12,Florida,12099,Palm Beach,2023,50.5,,Female
+12,Florida,12101,Pasco,2023,43.3,,Male
+12,Florida,12101,Pasco,2023,51.1,,Female
+12,Florida,12103,Pinellas,2023,39.7,,Male
+12,Florida,12103,Pinellas,2023,45.8,,Female
+12,Florida,12105,Polk,2023,46.7,,Male
+12,Florida,12105,Polk,2023,56.5,,Female
+12,Florida,12107,Putnam,2023,41.2,,Male
+12,Florida,12107,Putnam,2023,48.8,,Female
+12,Florida,12113,Santa Rosa,2023,41.7,,Male
+12,Florida,12113,Santa Rosa,2023,51,,Female
+12,Florida,12115,Sarasota,2023,28.2,,Male
+12,Florida,12115,Sarasota,2023,34.4,,Female
+12,Florida,12117,Seminole,2023,41.2,,Male
+12,Florida,12117,Seminole,2023,49.2,,Female
+12,Florida,12109,St. Johns,2023,53.7,,Male
+12,Florida,12109,St. Johns,2023,59.3,,Female
+12,Florida,12111,St. Lucie,2023,40,,Male
+12,Florida,12111,St. Lucie,2023,48.2,,Female
+12,Florida,12119,Sumter,2023,44.3,,Male
+12,Florida,12119,Sumter,2023,56.7,,Female
+12,Florida,12121,Suwannee,2023,49.1,,Male
+12,Florida,12121,Suwannee,2023,65.4,,Female
+12,Florida,12123,Taylor,2023,33.9,,Male
+12,Florida,12123,Taylor,2023,39.9,,Female
+12,Florida,12125,Union,2023,48.2,,Male
+12,Florida,12125,Union,2023,56.5,,Female
+12,Florida,12127,Volusia,2023,42.7,,Male
+12,Florida,12127,Volusia,2023,51.1,,Female
+12,Florida,12129,Wakulla,2023,37.2,,Male
+12,Florida,12129,Wakulla,2023,46.7,,Female
+12,Florida,12131,Walton,2023,30,,Male
+12,Florida,12131,Walton,2023,43.2,,Female
+12,Florida,12133,Washington,2023,32.6,,Male
+12,Florida,12133,Washington,2023,48.2,,Female
+18,Indiana,18001,Adams,2023,24.6,,Male
+18,Indiana,18001,Adams,2023,31.3,,Female
+18,Indiana,18003,Allen,2023,21.7,,Male
+18,Indiana,18003,Allen,2023,30.4,,Female
+18,Indiana,18005,Bartholomew,2023,23.4,,Male
+18,Indiana,18005,Bartholomew,2023,26.5,,Female
+18,Indiana,18007,Benton,2023,24.7,,Male
+18,Indiana,18007,Benton,2023,32,,Female
+18,Indiana,18009,Blackford,2023,33.7,,Male
+18,Indiana,18009,Blackford,2023,39.7,,Female
+18,Indiana,18011,Boone,2023,29.4,,Male
+18,Indiana,18011,Boone,2023,33,,Female
+18,Indiana,18013,Brown,2023,20.3,,Male
+18,Indiana,18013,Brown,2023,27.4,,Female
+18,Indiana,18015,Carroll,2023,34.6,,Male
+18,Indiana,18015,Carroll,2023,39.4,,Female
+18,Indiana,18017,Cass,2023,36,,Male
+18,Indiana,18017,Cass,2023,43.1,,Female
+18,Indiana,18019,Clark,2023,19.6,,Male
+18,Indiana,18019,Clark,2023,28.3,,Female
+18,Indiana,18021,Clay,2023,24.8,,Male
+18,Indiana,18021,Clay,2023,30.9,,Female
+18,Indiana,18023,Clinton,2023,25.4,,Male
+18,Indiana,18023,Clinton,2023,28.4,,Female
+18,Indiana,18025,Crawford,2023,17,,Male
+18,Indiana,18025,Crawford,2023,25.7,,Female
+18,Indiana,18027,Daviess,2023,13.9,,Male
+18,Indiana,18027,Daviess,2023,22.8,,Female
+18,Indiana,18029,Dearborn,2023,11.7,,Male
+18,Indiana,18029,Dearborn,2023,16.8,,Female
+18,Indiana,18031,Decatur,2023,24,,Male
+18,Indiana,18031,Decatur,2023,28.3,,Female
+18,Indiana,18033,DeKalb,2023,21.4,,Male
+18,Indiana,18033,DeKalb,2023,29,,Female
+18,Indiana,18035,Delaware,2023,33.1,,Male
+18,Indiana,18035,Delaware,2023,43.6,,Female
+18,Indiana,18037,Dubois,2023,16.9,,Male
+18,Indiana,18037,Dubois,2023,20.5,,Female
+18,Indiana,18039,Elkhart,2023,22.6,,Male
+18,Indiana,18039,Elkhart,2023,28.5,,Female
+18,Indiana,18041,Fayette,2023,20.9,,Male
+18,Indiana,18041,Fayette,2023,34.3,,Female
+18,Indiana,18043,Floyd,2023,16.2,,Male
+18,Indiana,18043,Floyd,2023,27.1,,Female
+18,Indiana,18045,Fountain,2023,26.6,,Male
+18,Indiana,18045,Fountain,2023,33.3,,Female
+18,Indiana,18047,Franklin,2023,20.7,,Male
+18,Indiana,18047,Franklin,2023,27.2,,Female
+18,Indiana,18049,Fulton,2023,20.3,,Male
+18,Indiana,18049,Fulton,2023,28.5,,Female
+18,Indiana,18051,Gibson,2023,27.3,,Male
+18,Indiana,18051,Gibson,2023,26,,Female
+18,Indiana,18053,Grant,2023,34.4,,Male
+18,Indiana,18053,Grant,2023,43.1,,Female
+18,Indiana,18055,Greene,2023,17.9,,Male
+18,Indiana,18055,Greene,2023,25.1,,Female
+18,Indiana,18057,Hamilton,2023,30.6,,Male
+18,Indiana,18057,Hamilton,2023,34.9,,Female
+18,Indiana,18059,Hancock,2023,30.1,,Male
+18,Indiana,18059,Hancock,2023,34.8,,Female
+18,Indiana,18061,Harrison,2023,13.8,,Male
+18,Indiana,18061,Harrison,2023,25.7,,Female
+18,Indiana,18063,Hendricks,2023,32,,Male
+18,Indiana,18063,Hendricks,2023,37.1,,Female
+18,Indiana,18065,Henry,2023,28.7,,Male
+18,Indiana,18065,Henry,2023,38.5,,Female
+18,Indiana,18067,Howard,2023,37.8,,Male
+18,Indiana,18067,Howard,2023,46.4,,Female
+18,Indiana,18069,Huntington,2023,25.2,,Male
+18,Indiana,18069,Huntington,2023,33.1,,Female
+18,Indiana,18071,Jackson,2023,21.2,,Male
+18,Indiana,18071,Jackson,2023,28.2,,Female
+18,Indiana,18073,Jasper,2023,30.5,,Male
+18,Indiana,18073,Jasper,2023,37.8,,Female
+18,Indiana,18075,Jay,2023,28,,Male
+18,Indiana,18075,Jay,2023,33.5,,Female
+18,Indiana,18077,Jefferson,2023,22,,Male
+18,Indiana,18077,Jefferson,2023,27.7,,Female
+18,Indiana,18079,Jennings,2023,24.6,,Male
+18,Indiana,18079,Jennings,2023,28.5,,Female
+18,Indiana,18081,Johnson,2023,31.6,,Male
+18,Indiana,18081,Johnson,2023,36.9,,Female
+18,Indiana,18083,Knox,2023,16.5,,Male
+18,Indiana,18083,Knox,2023,25.4,,Female
+18,Indiana,18085,Kosciusko,2023,19.3,,Male
+18,Indiana,18085,Kosciusko,2023,25.9,,Female
+18,Indiana,18087,LaGrange,2023,19.9,,Male
+18,Indiana,18087,LaGrange,2023,25.7,,Female
+18,Indiana,18089,Lake,2023,30.6,,Male
+18,Indiana,18089,Lake,2023,37.7,,Female
+18,Indiana,18091,LaPorte,2023,25.9,,Male
+18,Indiana,18091,LaPorte,2023,32.2,,Female
+18,Indiana,18093,Lawrence,2023,17.6,,Male
+18,Indiana,18093,Lawrence,2023,27.4,,Female
+18,Indiana,18095,Madison,2023,25,,Male
+18,Indiana,18095,Madison,2023,30.4,,Female
+18,Indiana,18097,Marion,2023,27.9,,Male
+18,Indiana,18097,Marion,2023,32,,Female
+18,Indiana,18099,Marshall,2023,24,,Male
+18,Indiana,18099,Marshall,2023,29.5,,Female
+18,Indiana,18101,Martin,2023,15.4,,Male
+18,Indiana,18101,Martin,2023,28.8,,Female
+18,Indiana,18103,Miami,2023,35.5,,Male
+18,Indiana,18103,Miami,2023,44,,Female
+18,Indiana,18105,Monroe,2023,19.2,,Male
+18,Indiana,18105,Monroe,2023,30.7,,Female
+18,Indiana,18107,Montgomery,2023,25.5,,Male
+18,Indiana,18107,Montgomery,2023,29.4,,Female
+18,Indiana,18109,Morgan,2023,29.7,,Male
+18,Indiana,18109,Morgan,2023,34.7,,Female
+18,Indiana,18111,Newton,2023,33.2,,Male
+18,Indiana,18111,Newton,2023,40.4,,Female
+18,Indiana,18113,Noble,2023,21.4,,Male
+18,Indiana,18113,Noble,2023,28.3,,Female
+18,Indiana,18115,Ohio,2023,10.4,,Male
+18,Indiana,18115,Ohio,2023,14.7,,Female
+18,Indiana,18117,Orange,2023,18.1,,Male
+18,Indiana,18117,Orange,2023,28.6,,Female
+18,Indiana,18119,Owen,2023,21.4,,Male
+18,Indiana,18119,Owen,2023,30.3,,Female
+18,Indiana,18121,Parke,2023,28.3,,Male
+18,Indiana,18121,Parke,2023,33.6,,Female
+18,Indiana,18123,Perry,2023,14.9,,Male
+18,Indiana,18123,Perry,2023,17.6,,Female
+18,Indiana,18125,Pike,2023,17.6,,Male
+18,Indiana,18125,Pike,2023,20.3,,Female
+18,Indiana,18127,Porter,2023,30.9,,Male
+18,Indiana,18127,Porter,2023,37.8,,Female
+18,Indiana,18129,Posey,2023,31,,Male
+18,Indiana,18129,Posey,2023,29.2,,Female
+18,Indiana,18131,Pulaski,2023,23.9,,Male
+18,Indiana,18131,Pulaski,2023,30.5,,Female
+18,Indiana,18133,Putnam,2023,23.7,,Male
+18,Indiana,18133,Putnam,2023,31,,Female
+18,Indiana,18135,Randolph,2023,26.6,,Male
+18,Indiana,18135,Randolph,2023,35.2,,Female
+18,Indiana,18137,Ripley,2023,21.8,,Male
+18,Indiana,18137,Ripley,2023,22.4,,Female
+18,Indiana,18139,Rush,2023,24.5,,Male
+18,Indiana,18139,Rush,2023,32,,Female
+18,Indiana,18143,Scott,2023,23.3,,Male
+18,Indiana,18143,Scott,2023,29.8,,Female
+18,Indiana,18145,Shelby,2023,31.5,,Male
+18,Indiana,18145,Shelby,2023,36,,Female
+18,Indiana,18147,Spencer,2023,18.4,,Male
+18,Indiana,18147,Spencer,2023,18.3,,Female
+18,Indiana,18141,St. Joseph,2023,26.5,,Male
+18,Indiana,18141,St. Joseph,2023,31.5,,Female
+18,Indiana,18149,Starke,2023,24.9,,Male
+18,Indiana,18149,Starke,2023,31.3,,Female
+18,Indiana,18151,Steuben,2023,13.9,,Male
+18,Indiana,18151,Steuben,2023,22.4,,Female
+18,Indiana,18153,Sullivan,2023,24.5,,Male
+18,Indiana,18153,Sullivan,2023,30.6,,Female
+18,Indiana,18155,Switzerland,2023,14.7,,Male
+18,Indiana,18155,Switzerland,2023,16.5,,Female
+18,Indiana,18157,Tippecanoe,2023,29,,Male
+18,Indiana,18157,Tippecanoe,2023,35.7,,Female
+18,Indiana,18159,Tipton,2023,28.4,,Male
+18,Indiana,18159,Tipton,2023,33.4,,Female
+18,Indiana,18161,Union,2023,21.6,,Male
+18,Indiana,18161,Union,2023,30.9,,Female
+18,Indiana,18163,Vanderburgh,2023,29.2,,Male
+18,Indiana,18163,Vanderburgh,2023,26.9,,Female
+18,Indiana,18165,Vermillion,2023,26.9,,Male
+18,Indiana,18165,Vermillion,2023,33,,Female
+18,Indiana,18167,Vigo,2023,26.5,,Male
+18,Indiana,18167,Vigo,2023,30.6,,Female
+18,Indiana,18169,Wabash,2023,22.2,,Male
+18,Indiana,18169,Wabash,2023,34,,Female
+18,Indiana,18171,Warren,2023,26.5,,Male
+18,Indiana,18171,Warren,2023,31.7,,Female
+18,Indiana,18173,Warrick,2023,26.8,,Male
+18,Indiana,18173,Warrick,2023,25.3,,Female
+18,Indiana,18175,Washington,2023,18.3,,Male
+18,Indiana,18175,Washington,2023,29.4,,Female
+18,Indiana,18177,Wayne,2023,21.5,,Male
+18,Indiana,18177,Wayne,2023,35.3,,Female
+18,Indiana,18179,Wells,2023,25.8,,Male
+18,Indiana,18179,Wells,2023,34.3,,Female
+18,Indiana,18181,White,2023,26.9,,Male
+18,Indiana,18181,White,2023,32.7,,Female
+18,Indiana,18183,Whitley,2023,21.4,,Male
+18,Indiana,18183,Whitley,2023,30,,Female
+19,Iowa,19001,Adair,2023,17.3,,Male
+19,Iowa,19001,Adair,2023,16.9,,Female
+19,Iowa,19003,Adams,2023,18.3,,Male
+19,Iowa,19003,Adams,2023,27.6,,Female
+19,Iowa,19005,Allamakee,2023,17.7,,Male
+19,Iowa,19005,Allamakee,2023,22.6,,Female
+19,Iowa,19007,Appanoose,2023,27.2,,Male
+19,Iowa,19007,Appanoose,2023,30.3,,Female
+19,Iowa,19009,Audubon,2023,20.8,,Male
+19,Iowa,19009,Audubon,2023,23.2,,Female
+19,Iowa,19011,Benton,2023,28.7,,Male
+19,Iowa,19011,Benton,2023,32.3,,Female
+19,Iowa,19013,Black Hawk,2023,26.8,,Male
+19,Iowa,19013,Black Hawk,2023,30,,Female
+19,Iowa,19015,Boone,2023,31.1,,Male
+19,Iowa,19015,Boone,2023,26.2,,Female
+19,Iowa,19017,Bremer,2023,27.5,,Male
+19,Iowa,19017,Bremer,2023,32.2,,Female
+19,Iowa,19019,Buchanan,2023,28.9,,Male
+19,Iowa,19019,Buchanan,2023,32.3,,Female
+19,Iowa,19021,Buena Vista,2023,18.8,,Male
+19,Iowa,19021,Buena Vista,2023,24.3,,Female
+19,Iowa,19023,Butler,2023,26.3,,Male
+19,Iowa,19023,Butler,2023,34.7,,Female
+19,Iowa,19025,Calhoun,2023,25.4,,Male
+19,Iowa,19025,Calhoun,2023,31.3,,Female
+19,Iowa,19027,Carroll,2023,23.8,,Male
+19,Iowa,19027,Carroll,2023,20.1,,Female
+19,Iowa,19029,Cass,2023,18.3,,Male
+19,Iowa,19029,Cass,2023,30.1,,Female
+19,Iowa,19031,Cedar,2023,31.1,,Male
+19,Iowa,19031,Cedar,2023,34.3,,Female
+19,Iowa,19033,Cerro Gordo,2023,21.7,,Male
+19,Iowa,19033,Cerro Gordo,2023,33.7,,Female
+19,Iowa,19035,Cherokee,2023,17.9,,Male
+19,Iowa,19035,Cherokee,2023,23.8,,Female
+19,Iowa,19037,Chickasaw,2023,19.4,,Male
+19,Iowa,19037,Chickasaw,2023,25.1,,Female
+19,Iowa,19039,Clarke,2023,23.3,,Male
+19,Iowa,19039,Clarke,2023,21.7,,Female
+19,Iowa,19041,Clay,2023,14.9,,Male
+19,Iowa,19041,Clay,2023,24.8,,Female
+19,Iowa,19043,Clayton,2023,22.1,,Male
+19,Iowa,19043,Clayton,2023,27.7,,Female
+19,Iowa,19045,Clinton,2023,34.3,,Male
+19,Iowa,19045,Clinton,2023,37,,Female
+19,Iowa,19047,Crawford,2023,22.1,,Male
+19,Iowa,19047,Crawford,2023,26.7,,Female
+19,Iowa,19049,Dallas,2023,31.7,,Male
+19,Iowa,19049,Dallas,2023,26.2,,Female
+19,Iowa,19051,Davis,2023,24.3,,Male
+19,Iowa,19051,Davis,2023,31.8,,Female
+19,Iowa,19053,Decatur,2023,24.9,,Male
+19,Iowa,19053,Decatur,2023,25.3,,Female
+19,Iowa,19055,Delaware,2023,28.9,,Male
+19,Iowa,19055,Delaware,2023,34.3,,Female
+19,Iowa,19057,Des Moines,2023,24,,Male
+19,Iowa,19057,Des Moines,2023,36.4,,Female
+19,Iowa,19059,Dickinson,2023,11,,Male
+19,Iowa,19059,Dickinson,2023,23,,Female
+19,Iowa,19061,Dubuque,2023,23,,Male
+19,Iowa,19061,Dubuque,2023,29.7,,Female
+19,Iowa,19063,Emmet,2023,13.9,,Male
+19,Iowa,19063,Emmet,2023,22.1,,Female
+19,Iowa,19065,Fayette,2023,23.4,,Male
+19,Iowa,19065,Fayette,2023,29.2,,Female
+19,Iowa,19067,Floyd,2023,18.9,,Male
+19,Iowa,19067,Floyd,2023,30.8,,Female
+19,Iowa,19069,Franklin,2023,22.1,,Male
+19,Iowa,19069,Franklin,2023,31.9,,Female
+19,Iowa,19071,Fremont,2023,18.9,,Male
+19,Iowa,19071,Fremont,2023,25.1,,Female
+19,Iowa,19073,Greene,2023,19.7,,Male
+19,Iowa,19073,Greene,2023,20.5,,Female
+19,Iowa,19075,Grundy,2023,29.6,,Male
+19,Iowa,19075,Grundy,2023,33.5,,Female
+19,Iowa,19077,Guthrie,2023,15.6,,Male
+19,Iowa,19077,Guthrie,2023,17.1,,Female
+19,Iowa,19079,Hamilton,2023,23.3,,Male
+19,Iowa,19079,Hamilton,2023,23.7,,Female
+19,Iowa,19081,Hancock,2023,21.2,,Male
+19,Iowa,19081,Hancock,2023,31.5,,Female
+19,Iowa,19083,Hardin,2023,22.2,,Male
+19,Iowa,19083,Hardin,2023,20.8,,Female
+19,Iowa,19085,Harrison,2023,16.2,,Male
+19,Iowa,19085,Harrison,2023,28,,Female
+19,Iowa,19087,Henry,2023,21.5,,Male
+19,Iowa,19087,Henry,2023,33.4,,Female
+19,Iowa,19089,Howard,2023,16.1,,Male
+19,Iowa,19089,Howard,2023,31.5,,Female
+19,Iowa,19091,Humboldt,2023,24.3,,Male
+19,Iowa,19091,Humboldt,2023,31,,Female
+19,Iowa,19093,Ida,2023,23.4,,Male
+19,Iowa,19093,Ida,2023,29.8,,Female
+19,Iowa,19095,Iowa,2023,27.5,,Male
+19,Iowa,19095,Iowa,2023,30.5,,Female
+19,Iowa,19097,Jackson,2023,28.3,,Male
+19,Iowa,19097,Jackson,2023,35.3,,Female
+19,Iowa,19099,Jasper,2023,33.1,,Male
+19,Iowa,19099,Jasper,2023,28.2,,Female
+19,Iowa,19101,Jefferson,2023,21.3,,Male
+19,Iowa,19101,Jefferson,2023,26,,Female
+19,Iowa,19103,Johnson,2023,27,,Male
+19,Iowa,19103,Johnson,2023,29.8,,Female
+19,Iowa,19105,Jones,2023,29.6,,Male
+19,Iowa,19105,Jones,2023,34.5,,Female
+19,Iowa,19107,Keokuk,2023,17.6,,Male
+19,Iowa,19107,Keokuk,2023,26.9,,Female
+19,Iowa,19109,Kossuth,2023,17.7,,Male
+19,Iowa,19109,Kossuth,2023,22.6,,Female
+19,Iowa,19111,Lee,2023,23.3,,Male
+19,Iowa,19111,Lee,2023,36.3,,Female
+19,Iowa,19113,Linn,2023,26.9,,Male
+19,Iowa,19113,Linn,2023,29.4,,Female
+19,Iowa,19115,Louisa,2023,25.3,,Male
+19,Iowa,19115,Louisa,2023,30.2,,Female
+19,Iowa,19117,Lucas,2023,25.9,,Male
+19,Iowa,19117,Lucas,2023,28.6,,Female
+19,Iowa,19119,Lyon,2023,7.3,,Male
+19,Iowa,19119,Lyon,2023,12.5,,Female
+19,Iowa,19121,Madison,2023,32,,Male
+19,Iowa,19121,Madison,2023,26.4,,Female
+19,Iowa,19123,Mahaska,2023,23.4,,Male
+19,Iowa,19123,Mahaska,2023,30.1,,Female
+19,Iowa,19125,Marion,2023,34.7,,Male
+19,Iowa,19125,Marion,2023,29.3,,Female
+19,Iowa,19127,Marshall,2023,24.9,,Male
+19,Iowa,19127,Marshall,2023,22.1,,Female
+19,Iowa,19129,Mills,2023,19.3,,Male
+19,Iowa,19129,Mills,2023,24.7,,Female
+19,Iowa,19131,Mitchell,2023,19.8,,Male
+19,Iowa,19131,Mitchell,2023,35.1,,Female
+19,Iowa,19133,Monona,2023,22.5,,Male
+19,Iowa,19133,Monona,2023,28.4,,Female
+19,Iowa,19135,Monroe,2023,24.4,,Male
+19,Iowa,19135,Monroe,2023,31.8,,Female
+19,Iowa,19137,Montgomery,2023,14.8,,Male
+19,Iowa,19137,Montgomery,2023,30.6,,Female
+19,Iowa,19139,Muscatine,2023,30.3,,Male
+19,Iowa,19139,Muscatine,2023,33.7,,Female
+19,Iowa,19141,O'Brien,2023,12.5,,Male
+19,Iowa,19141,O'Brien,2023,18.1,,Female
+19,Iowa,19143,Osceola,2023,9.3,,Male
+19,Iowa,19143,Osceola,2023,17.1,,Female
+19,Iowa,19145,Page,2023,16,,Male
+19,Iowa,19145,Page,2023,23,,Female
+19,Iowa,19147,Palo Alto,2023,18,,Male
+19,Iowa,19147,Palo Alto,2023,24.3,,Female
+19,Iowa,19149,Plymouth,2023,17.1,,Male
+19,Iowa,19149,Plymouth,2023,22.6,,Female
+19,Iowa,19151,Pocahontas,2023,25.1,,Male
+19,Iowa,19151,Pocahontas,2023,29.7,,Female
+19,Iowa,19153,Polk,2023,30.4,,Male
+19,Iowa,19153,Polk,2023,25.4,,Female
+19,Iowa,19155,Pottawattamie,2023,30.5,,Male
+19,Iowa,19155,Pottawattamie,2023,34.6,,Female
+19,Iowa,19157,Poweshiek,2023,23.3,,Male
+19,Iowa,19157,Poweshiek,2023,24,,Female
+19,Iowa,19159,Ringgold,2023,23.2,,Male
+19,Iowa,19159,Ringgold,2023,25.3,,Female
+19,Iowa,19161,Sac,2023,21.8,,Male
+19,Iowa,19161,Sac,2023,23.9,,Female
+19,Iowa,19163,Scott,2023,33.7,,Male
+19,Iowa,19163,Scott,2023,36.8,,Female
+19,Iowa,19165,Shelby,2023,16.2,,Male
+19,Iowa,19165,Shelby,2023,28.4,,Female
+19,Iowa,19167,Sioux,2023,10,,Male
+19,Iowa,19167,Sioux,2023,13.1,,Female
+19,Iowa,19169,Story,2023,33.8,,Male
+19,Iowa,19169,Story,2023,27.2,,Female
+19,Iowa,19171,Tama,2023,27.6,,Male
+19,Iowa,19171,Tama,2023,30.5,,Female
+19,Iowa,19173,Taylor,2023,18.2,,Male
+19,Iowa,19173,Taylor,2023,25.4,,Female
+19,Iowa,19175,Union,2023,21.1,,Male
+19,Iowa,19175,Union,2023,24.1,,Female
+19,Iowa,19177,Van Buren,2023,20,,Male
+19,Iowa,19177,Van Buren,2023,28.1,,Female
+19,Iowa,19179,Wapello,2023,22.2,,Male
+19,Iowa,19179,Wapello,2023,30.5,,Female
+19,Iowa,19181,Warren,2023,31.9,,Male
+19,Iowa,19181,Warren,2023,27,,Female
+19,Iowa,19183,Washington,2023,23,,Male
+19,Iowa,19183,Washington,2023,26.3,,Female
+19,Iowa,19185,Wayne,2023,28,,Male
+19,Iowa,19185,Wayne,2023,35.1,,Female
+19,Iowa,19187,Webster,2023,24.9,,Male
+19,Iowa,19187,Webster,2023,28.7,,Female
+19,Iowa,19189,Winnebago,2023,21.4,,Male
+19,Iowa,19189,Winnebago,2023,32.6,,Female
+19,Iowa,19191,Winneshiek,2023,16.1,,Male
+19,Iowa,19191,Winneshiek,2023,21.9,,Female
+19,Iowa,19193,Woodbury,2023,19.4,,Male
+19,Iowa,19193,Woodbury,2023,24.1,,Female
+19,Iowa,19195,Worth,2023,20.7,,Male
+19,Iowa,19195,Worth,2023,35.2,,Female
+19,Iowa,19197,Wright,2023,23.7,,Male
+19,Iowa,19197,Wright,2023,33.5,,Female
+20,Kansas,20001,Allen,2023,30.3,,Male
+20,Kansas,20001,Allen,2023,33.3,,Female
+20,Kansas,20003,Anderson,2023,28.5,,Male
+20,Kansas,20003,Anderson,2023,31.7,,Female
+20,Kansas,20005,Atchison,2023,29.8,,Male
+20,Kansas,20005,Atchison,2023,38.4,,Female
+20,Kansas,20007,Barber,2023,16.1,,Male
+20,Kansas,20007,Barber,2023,24.2,,Female
+20,Kansas,20009,Barton,2023,34.8,,Male
+20,Kansas,20009,Barton,2023,34.7,,Female
+20,Kansas,20011,Bourbon,2023,23.7,,Male
+20,Kansas,20011,Bourbon,2023,30.9,,Female
+20,Kansas,20013,Brown,2023,31.3,,Male
+20,Kansas,20013,Brown,2023,31.4,,Female
+20,Kansas,20015,Butler,2023,68.5,,Male
+20,Kansas,20015,Butler,2023,69.1,,Female
+20,Kansas,20017,Chase,2023,30.8,,Male
+20,Kansas,20017,Chase,2023,31.3,,Female
+20,Kansas,20019,Chautauqua,2023,24.6,,Male
+20,Kansas,20019,Chautauqua,2023,35.9,,Female
+20,Kansas,20021,Cherokee,2023,16.9,,Male
+20,Kansas,20021,Cherokee,2023,21.3,,Female
+20,Kansas,20023,Cheyenne,2023,10.3,,Male
+20,Kansas,20023,Cheyenne,2023,41.3,,Female
+20,Kansas,20025,Clark,2023,31.9,,Male
+20,Kansas,20025,Clark,2023,45.3,,Female
+20,Kansas,20027,Clay,2023,31.1,,Male
+20,Kansas,20027,Clay,2023,36.1,,Female
+20,Kansas,20029,Cloud,2023,24.9,,Male
+20,Kansas,20029,Cloud,2023,27.8,,Female
+20,Kansas,20031,Coffey,2023,40.3,,Male
+20,Kansas,20031,Coffey,2023,37.5,,Female
+20,Kansas,20033,Comanche,2023,37.9,,Male
+20,Kansas,20033,Comanche,2023,25.8,,Female
+20,Kansas,20035,Cowley,2023,71.3,,Male
+20,Kansas,20035,Cowley,2023,71.6,,Female
+20,Kansas,20037,Crawford,2023,18.5,,Male
+20,Kansas,20037,Crawford,2023,26.2,,Female
+20,Kansas,20039,Decatur,2023,8.3,,Male
+20,Kansas,20039,Decatur,2023,17.2,,Female
+20,Kansas,20041,Dickinson,2023,36.6,,Male
+20,Kansas,20041,Dickinson,2023,33.1,,Female
+20,Kansas,20043,Doniphan,2023,36.3,,Male
+20,Kansas,20043,Doniphan,2023,37,,Female
+20,Kansas,20045,Douglas,2023,29.7,,Male
+20,Kansas,20045,Douglas,2023,30.5,,Female
+20,Kansas,20047,Edwards,2023,28.5,,Male
+20,Kansas,20047,Edwards,2023,37,,Female
+20,Kansas,20049,Elk,2023,23.8,,Male
+20,Kansas,20049,Elk,2023,32.1,,Female
+20,Kansas,20051,Ellis,2023,33.2,,Male
+20,Kansas,20051,Ellis,2023,25.3,,Female
+20,Kansas,20053,Ellsworth,2023,38.1,,Male
+20,Kansas,20053,Ellsworth,2023,31.9,,Female
+20,Kansas,20055,Finney,2023,40.8,,Male
+20,Kansas,20055,Finney,2023,36.1,,Female
+20,Kansas,20057,Ford,2023,30.1,,Male
+20,Kansas,20057,Ford,2023,42.6,,Female
+20,Kansas,20059,Franklin,2023,28,,Male
+20,Kansas,20059,Franklin,2023,28,,Female
+20,Kansas,20061,Geary,2023,31.1,,Male
+20,Kansas,20061,Geary,2023,37.3,,Female
+20,Kansas,20063,Gove,2023,22.6,,Male
+20,Kansas,20063,Gove,2023,25.3,,Female
+20,Kansas,20065,Graham,2023,19.7,,Male
+20,Kansas,20065,Graham,2023,20.3,,Female
+20,Kansas,20067,Grant,2023,40,,Male
+20,Kansas,20067,Grant,2023,38.7,,Female
+20,Kansas,20069,Gray,2023,37.6,,Male
+20,Kansas,20069,Gray,2023,41.1,,Female
+20,Kansas,20071,Greeley,2023,16.8,,Male
+20,Kansas,20071,Greeley,2023,41.7,,Female
+20,Kansas,20073,Greenwood,2023,32.5,,Male
+20,Kansas,20073,Greenwood,2023,32.9,,Female
+20,Kansas,20075,Hamilton,2023,26.5,,Male
+20,Kansas,20075,Hamilton,2023,45.7,,Female
+20,Kansas,20077,Harper,2023,36.5,,Male
+20,Kansas,20077,Harper,2023,50.1,,Female
+20,Kansas,20079,Harvey,2023,68,,Male
+20,Kansas,20079,Harvey,2023,69,,Female
+20,Kansas,20081,Haskell,2023,36.1,,Male
+20,Kansas,20081,Haskell,2023,34.7,,Female
+20,Kansas,20083,Hodgeman,2023,41.4,,Male
+20,Kansas,20083,Hodgeman,2023,40.6,,Female
+20,Kansas,20085,Jackson,2023,35.1,,Male
+20,Kansas,20085,Jackson,2023,35.9,,Female
+20,Kansas,20087,Jefferson,2023,30.5,,Male
+20,Kansas,20087,Jefferson,2023,35.6,,Female
+20,Kansas,20089,Jewell,2023,29.1,,Male
+20,Kansas,20089,Jewell,2023,29.3,,Female
+20,Kansas,20091,Johnson,2023,31.8,,Male
+20,Kansas,20091,Johnson,2023,33.1,,Female
+20,Kansas,20093,Kearny,2023,40,,Male
+20,Kansas,20093,Kearny,2023,38.6,,Female
+20,Kansas,20095,Kingman,2023,74.1,,Male
+20,Kansas,20095,Kingman,2023,75.9,,Female
+20,Kansas,20097,Kiowa,2023,29.4,,Male
+20,Kansas,20097,Kiowa,2023,37.2,,Female
+20,Kansas,20099,Labette,2023,17.9,,Male
+20,Kansas,20099,Labette,2023,27.2,,Female
+20,Kansas,20101,Lane,2023,46.2,,Male
+20,Kansas,20101,Lane,2023,38.3,,Female
+20,Kansas,20103,Leavenworth,2023,32.3,,Male
+20,Kansas,20103,Leavenworth,2023,33.6,,Female
+20,Kansas,20105,Lincoln,2023,33.8,,Male
+20,Kansas,20105,Lincoln,2023,35.1,,Female
+20,Kansas,20107,Linn,2023,27.6,,Male
+20,Kansas,20107,Linn,2023,31.1,,Female
+20,Kansas,20109,Logan,2023,17.9,,Male
+20,Kansas,20109,Logan,2023,37.2,,Female
+20,Kansas,20111,Lyon,2023,38.7,,Male
+20,Kansas,20111,Lyon,2023,37.5,,Female
+20,Kansas,20115,Marion,2023,31.6,,Male
+20,Kansas,20115,Marion,2023,29,,Female
+20,Kansas,20117,Marshall,2023,21.3,,Male
+20,Kansas,20117,Marshall,2023,26.3,,Female
+20,Kansas,20113,McPherson,2023,35.1,,Male
+20,Kansas,20113,McPherson,2023,40.1,,Female
+20,Kansas,20119,Meade,2023,32,,Male
+20,Kansas,20119,Meade,2023,37.8,,Female
+20,Kansas,20121,Miami,2023,28.1,,Male
+20,Kansas,20121,Miami,2023,27.8,,Female
+20,Kansas,20123,Mitchell,2023,30.6,,Male
+20,Kansas,20123,Mitchell,2023,27,,Female
+20,Kansas,20125,Montgomery,2023,24.3,,Male
+20,Kansas,20125,Montgomery,2023,31.3,,Female
+20,Kansas,20127,Morris,2023,41.3,,Male
+20,Kansas,20127,Morris,2023,38.3,,Female
+20,Kansas,20129,Morton,2023,11.2,,Male
+20,Kansas,20129,Morton,2023,31,,Female
+20,Kansas,20131,Nemaha,2023,17.9,,Male
+20,Kansas,20131,Nemaha,2023,21,,Female
+20,Kansas,20133,Neosho,2023,22.9,,Male
+20,Kansas,20133,Neosho,2023,29.5,,Female
+20,Kansas,20135,Ness,2023,42.5,,Male
+20,Kansas,20135,Ness,2023,34.1,,Female
+20,Kansas,20137,Norton,2023,11.7,,Male
+20,Kansas,20137,Norton,2023,20.7,,Female
+20,Kansas,20139,Osage,2023,32.9,,Male
+20,Kansas,20139,Osage,2023,34.1,,Female
+20,Kansas,20141,Osborne,2023,30.2,,Male
+20,Kansas,20141,Osborne,2023,28.8,,Female
+20,Kansas,20143,Ottawa,2023,35.6,,Male
+20,Kansas,20143,Ottawa,2023,30.9,,Female
+20,Kansas,20145,Pawnee,2023,44.8,,Male
+20,Kansas,20145,Pawnee,2023,31.3,,Female
+20,Kansas,20147,Phillips,2023,26.5,,Male
+20,Kansas,20147,Phillips,2023,19.4,,Female
+20,Kansas,20149,Pottawatomie,2023,31,,Male
+20,Kansas,20149,Pottawatomie,2023,33.1,,Female
+20,Kansas,20151,Pratt,2023,27.7,,Male
+20,Kansas,20151,Pratt,2023,51.3,,Female
+20,Kansas,20153,Rawlins,2023,10.3,,Male
+20,Kansas,20153,Rawlins,2023,24.7,,Female
+20,Kansas,20155,Reno,2023,70.9,,Male
+20,Kansas,20155,Reno,2023,72,,Female
+20,Kansas,20157,Republic,2023,25.9,,Male
+20,Kansas,20157,Republic,2023,15.3,,Female
+20,Kansas,20159,Rice,2023,35.4,,Male
+20,Kansas,20159,Rice,2023,46.2,,Female
+20,Kansas,20161,Riley,2023,26.2,,Male
+20,Kansas,20161,Riley,2023,33.9,,Female
+20,Kansas,20163,Rooks,2023,30.7,,Male
+20,Kansas,20163,Rooks,2023,26.9,,Female
+20,Kansas,20165,Rush,2023,41.4,,Male
+20,Kansas,20165,Rush,2023,31.6,,Female
+20,Kansas,20167,Russell,2023,34.5,,Male
+20,Kansas,20167,Russell,2023,33.8,,Female
+20,Kansas,20169,Saline,2023,34.9,,Male
+20,Kansas,20169,Saline,2023,27.5,,Female
+20,Kansas,20171,Scott,2023,40.5,,Male
+20,Kansas,20171,Scott,2023,40,,Female
+20,Kansas,20173,Sedgwick,2023,66.9,,Male
+20,Kansas,20173,Sedgwick,2023,69.9,,Female
+20,Kansas,20175,Seward,2023,24.6,,Male
+20,Kansas,20175,Seward,2023,28.5,,Female
+20,Kansas,20177,Shawnee,2023,26.6,,Male
+20,Kansas,20177,Shawnee,2023,31.8,,Female
+20,Kansas,20179,Sheridan,2023,8.9,,Male
+20,Kansas,20179,Sheridan,2023,19.9,,Female
+20,Kansas,20181,Sherman,2023,15.5,,Male
+20,Kansas,20181,Sherman,2023,31.5,,Female
+20,Kansas,20183,Smith,2023,38.6,,Male
+20,Kansas,20183,Smith,2023,22.9,,Female
+20,Kansas,20185,Stafford,2023,34.5,,Male
+20,Kansas,20185,Stafford,2023,47.6,,Female
+20,Kansas,20187,Stanton,2023,24.9,,Male
+20,Kansas,20187,Stanton,2023,39.4,,Female
+20,Kansas,20189,Stevens,2023,28.3,,Male
+20,Kansas,20189,Stevens,2023,31.3,,Female
+20,Kansas,20191,Sumner,2023,70.8,,Male
+20,Kansas,20191,Sumner,2023,71.4,,Female
+20,Kansas,20193,Thomas,2023,13.9,,Male
+20,Kansas,20193,Thomas,2023,33.1,,Female
+20,Kansas,20195,Trego,2023,32.9,,Male
+20,Kansas,20195,Trego,2023,25,,Female
+20,Kansas,20197,Wabaunsee,2023,35,,Male
+20,Kansas,20197,Wabaunsee,2023,37.5,,Female
+20,Kansas,20199,Wallace,2023,14.4,,Male
+20,Kansas,20199,Wallace,2023,47.1,,Female
+20,Kansas,20201,Washington,2023,22.9,,Male
+20,Kansas,20201,Washington,2023,27.7,,Female
+20,Kansas,20203,Wichita,2023,21.7,,Male
+20,Kansas,20203,Wichita,2023,34.2,,Female
+20,Kansas,20205,Wilson,2023,25.5,,Male
+20,Kansas,20205,Wilson,2023,34.1,,Female
+20,Kansas,20207,Woodson,2023,33.2,,Male
+20,Kansas,20207,Woodson,2023,37.5,,Female
+20,Kansas,20209,Wyandotte,2023,34.2,,Male
+20,Kansas,20209,Wyandotte,2023,34.6,,Female
+31,Nebraska,31001,Adams,2023,19.6,,Male
+31,Nebraska,31001,Adams,2023,22,,Female
+31,Nebraska,31003,Antelope,2023,9.9,,Male
+31,Nebraska,31003,Antelope,2023,12,,Female
+31,Nebraska,31005,Arthur,2023,16.8,,Male
+31,Nebraska,31005,Arthur,2023,29.4,,Female
+31,Nebraska,31007,Banner,2023,26.1,,Male
+31,Nebraska,31007,Banner,2023,37.2,,Female
+31,Nebraska,31009,Blaine,2023,13.6,,Male
+31,Nebraska,31009,Blaine,2023,11.4,,Female
+31,Nebraska,31011,Boone,2023,13.7,,Male
+31,Nebraska,31011,Boone,2023,14.4,,Female
+31,Nebraska,31013,Box Butte,2023,24.1,,Male
+31,Nebraska,31013,Box Butte,2023,29.3,,Female
+31,Nebraska,31015,Boyd,2023,3.4,,Male
+31,Nebraska,31015,Boyd,2023,8,,Female
+31,Nebraska,31017,Brown,2023,11.1,,Male
+31,Nebraska,31017,Brown,2023,9.6,,Female
+31,Nebraska,31019,Buffalo,2023,18.8,,Male
+31,Nebraska,31019,Buffalo,2023,20.2,,Female
+31,Nebraska,31021,Burt,2023,16.3,,Male
+31,Nebraska,31021,Burt,2023,23.7,,Female
+31,Nebraska,31023,Butler,2023,20.8,,Male
+31,Nebraska,31023,Butler,2023,23.9,,Female
+31,Nebraska,31025,Cass,2023,22.3,,Male
+31,Nebraska,31025,Cass,2023,23.5,,Female
+31,Nebraska,31027,Cedar,2023,1.3,,Male
+31,Nebraska,31027,Cedar,2023,7.5,,Female
+31,Nebraska,31029,Chase,2023,16.9,,Male
+31,Nebraska,31029,Chase,2023,14.7,,Female
+31,Nebraska,31031,Cherry,2023,15.9,,Male
+31,Nebraska,31031,Cherry,2023,20.4,,Female
+31,Nebraska,31033,Cheyenne,2023,23.2,,Male
+31,Nebraska,31033,Cheyenne,2023,35.9,,Female
+31,Nebraska,31035,Clay,2023,18.1,,Male
+31,Nebraska,31035,Clay,2023,22,,Female
+31,Nebraska,31037,Colfax,2023,14.1,,Male
+31,Nebraska,31037,Colfax,2023,22.6,,Female
+31,Nebraska,31039,Cuming,2023,13.2,,Male
+31,Nebraska,31039,Cuming,2023,23.5,,Female
+31,Nebraska,31041,Custer,2023,15.6,,Male
+31,Nebraska,31041,Custer,2023,20.1,,Female
+31,Nebraska,31043,Dakota,2023,18.9,,Male
+31,Nebraska,31043,Dakota,2023,23.4,,Female
+31,Nebraska,31045,Dawes,2023,21.7,,Male
+31,Nebraska,31045,Dawes,2023,16.9,,Female
+31,Nebraska,31047,Dawson,2023,15.3,,Male
+31,Nebraska,31047,Dawson,2023,19.8,,Female
+31,Nebraska,31049,Deuel,2023,20.5,,Male
+31,Nebraska,31049,Deuel,2023,36.5,,Female
+31,Nebraska,31051,Dixon,2023,5.3,,Male
+31,Nebraska,31051,Dixon,2023,5.3,,Female
+31,Nebraska,31053,Dodge,2023,33.9,,Male
+31,Nebraska,31053,Dodge,2023,37.4,,Female
+31,Nebraska,31055,Douglas,2023,30.4,,Male
+31,Nebraska,31055,Douglas,2023,34.4,,Female
+31,Nebraska,31057,Dundy,2023,9.5,,Male
+31,Nebraska,31057,Dundy,2023,15.4,,Female
+31,Nebraska,31059,Fillmore,2023,12.8,,Male
+31,Nebraska,31059,Fillmore,2023,14.9,,Female
+31,Nebraska,31061,Franklin,2023,18.2,,Male
+31,Nebraska,31061,Franklin,2023,15.6,,Female
+31,Nebraska,31063,Frontier,2023,16.4,,Male
+31,Nebraska,31063,Frontier,2023,21.3,,Female
+31,Nebraska,31065,Furnas,2023,7.6,,Male
+31,Nebraska,31065,Furnas,2023,14.6,,Female
+31,Nebraska,31067,Gage,2023,22.8,,Male
+31,Nebraska,31067,Gage,2023,25.7,,Female
+31,Nebraska,31069,Garden,2023,20.6,,Male
+31,Nebraska,31069,Garden,2023,40.9,,Female
+31,Nebraska,31071,Garfield,2023,10.2,,Male
+31,Nebraska,31071,Garfield,2023,11.7,,Female
+31,Nebraska,31073,Gosper,2023,14.4,,Male
+31,Nebraska,31073,Gosper,2023,16.2,,Female
+31,Nebraska,31075,Grant,2023,15,,Male
+31,Nebraska,31075,Grant,2023,24.4,,Female
+31,Nebraska,31077,Greeley,2023,9.9,,Male
+31,Nebraska,31077,Greeley,2023,12.2,,Female
+31,Nebraska,31079,Hall,2023,19.3,,Male
+31,Nebraska,31079,Hall,2023,21.9,,Female
+31,Nebraska,31081,Hamilton,2023,21.8,,Male
+31,Nebraska,31081,Hamilton,2023,24.2,,Female
+31,Nebraska,31083,Harlan,2023,11.8,,Male
+31,Nebraska,31083,Harlan,2023,15.7,,Female
+31,Nebraska,31085,Hayes,2023,18.1,,Male
+31,Nebraska,31085,Hayes,2023,23.7,,Female
+31,Nebraska,31087,Hitchcock,2023,6.7,,Male
+31,Nebraska,31087,Hitchcock,2023,14.6,,Female
+31,Nebraska,31089,Holt,2023,7.7,,Male
+31,Nebraska,31089,Holt,2023,8.8,,Female
+31,Nebraska,31091,Hooker,2023,8.7,,Male
+31,Nebraska,31091,Hooker,2023,12.2,,Female
+31,Nebraska,31093,Howard,2023,18.9,,Male
+31,Nebraska,31093,Howard,2023,21.1,,Female
+31,Nebraska,31095,Jefferson,2023,15,,Male
+31,Nebraska,31095,Jefferson,2023,20.7,,Female
+31,Nebraska,31097,Johnson,2023,23.2,,Male
+31,Nebraska,31097,Johnson,2023,26.7,,Female
+31,Nebraska,31099,Kearney,2023,15,,Male
+31,Nebraska,31099,Kearney,2023,19,,Female
+31,Nebraska,31101,Keith,2023,18.4,,Male
+31,Nebraska,31101,Keith,2023,27.6,,Female
+31,Nebraska,31103,Keya Paha,2023,8,,Male
+31,Nebraska,31103,Keya Paha,2023,7.7,,Female
+31,Nebraska,31105,Kimball,2023,28.2,,Male
+31,Nebraska,31105,Kimball,2023,38.4,,Female
+31,Nebraska,31107,Knox,2023,5.1,,Male
+31,Nebraska,31107,Knox,2023,9.8,,Female
+31,Nebraska,31109,Lancaster,2023,21.9,,Male
+31,Nebraska,31109,Lancaster,2023,23.8,,Female
+31,Nebraska,31111,Lincoln,2023,18.1,,Male
+31,Nebraska,31111,Lincoln,2023,23.2,,Female
+31,Nebraska,31113,Logan,2023,19.2,,Male
+31,Nebraska,31113,Logan,2023,23.1,,Female
+31,Nebraska,31115,Loup,2023,10.7,,Male
+31,Nebraska,31115,Loup,2023,7.3,,Female
+31,Nebraska,31119,Madison,2023,11.7,,Male
+31,Nebraska,31119,Madison,2023,13,,Female
+31,Nebraska,31117,McPherson,2023,19.6,,Male
+31,Nebraska,31117,McPherson,2023,28.4,,Female
+31,Nebraska,31121,Merrick,2023,19.4,,Male
+31,Nebraska,31121,Merrick,2023,20.4,,Female
+31,Nebraska,31123,Morrill,2023,25.1,,Male
+31,Nebraska,31123,Morrill,2023,35.1,,Female
+31,Nebraska,31125,Nance,2023,12.5,,Male
+31,Nebraska,31125,Nance,2023,14.9,,Female
+31,Nebraska,31127,Nemaha,2023,18.5,,Male
+31,Nebraska,31127,Nemaha,2023,28.3,,Female
+31,Nebraska,31129,Nuckolls,2023,20.3,,Male
+31,Nebraska,31129,Nuckolls,2023,20.1,,Female
+31,Nebraska,31131,Otoe,2023,23,,Male
+31,Nebraska,31131,Otoe,2023,25.5,,Female
+31,Nebraska,31133,Pawnee,2023,19.5,,Male
+31,Nebraska,31133,Pawnee,2023,22.8,,Female
+31,Nebraska,31135,Perkins,2023,19.5,,Male
+31,Nebraska,31135,Perkins,2023,27.5,,Female
+31,Nebraska,31137,Phelps,2023,13.1,,Male
+31,Nebraska,31137,Phelps,2023,17.7,,Female
+31,Nebraska,31139,Pierce,2023,8.4,,Male
+31,Nebraska,31139,Pierce,2023,11.9,,Female
+31,Nebraska,31141,Platte,2023,12.6,,Male
+31,Nebraska,31141,Platte,2023,17.1,,Female
+31,Nebraska,31143,Polk,2023,11.4,,Male
+31,Nebraska,31143,Polk,2023,16.3,,Female
+31,Nebraska,31145,Red Willow,2023,5.8,,Male
+31,Nebraska,31145,Red Willow,2023,17.9,,Female
+31,Nebraska,31147,Richardson,2023,18.5,,Male
+31,Nebraska,31147,Richardson,2023,14.3,,Female
+31,Nebraska,31149,Rock,2023,7.8,,Male
+31,Nebraska,31149,Rock,2023,3.9,,Female
+31,Nebraska,31151,Saline,2023,21.7,,Male
+31,Nebraska,31151,Saline,2023,24.5,,Female
+31,Nebraska,31153,Sarpy,2023,30.9,,Male
+31,Nebraska,31153,Sarpy,2023,34.3,,Female
+31,Nebraska,31155,Saunders,2023,29.8,,Male
+31,Nebraska,31155,Saunders,2023,31.9,,Female
+31,Nebraska,31157,Scotts Bluff,2023,24.2,,Male
+31,Nebraska,31157,Scotts Bluff,2023,32.5,,Female
+31,Nebraska,31159,Seward,2023,21.7,,Male
+31,Nebraska,31159,Seward,2023,24,,Female
+31,Nebraska,31161,Sheridan,2023,19.1,,Male
+31,Nebraska,31161,Sheridan,2023,21.8,,Female
+31,Nebraska,31163,Sherman,2023,12.8,,Male
+31,Nebraska,31163,Sherman,2023,17,,Female
+31,Nebraska,31165,Sioux,2023,25.3,,Male
+31,Nebraska,31165,Sioux,2023,26.2,,Female
+31,Nebraska,31167,Stanton,2023,10.9,,Male
+31,Nebraska,31167,Stanton,2023,16.4,,Female
+31,Nebraska,31169,Thayer,2023,13.9,,Male
+31,Nebraska,31169,Thayer,2023,11.9,,Female
+31,Nebraska,31171,Thomas,2023,8.5,,Male
+31,Nebraska,31171,Thomas,2023,12.5,,Female
+31,Nebraska,31173,Thurston,2023,16.9,,Male
+31,Nebraska,31173,Thurston,2023,23.2,,Female
+31,Nebraska,31175,Valley,2023,13.7,,Male
+31,Nebraska,31175,Valley,2023,11.8,,Female
+31,Nebraska,31177,Washington,2023,32.9,,Male
+31,Nebraska,31177,Washington,2023,37.8,,Female
+31,Nebraska,31179,Wayne,2023,8.8,,Male
+31,Nebraska,31179,Wayne,2023,13,,Female
+31,Nebraska,31181,Webster,2023,22.6,,Male
+31,Nebraska,31181,Webster,2023,21.2,,Female
+31,Nebraska,31183,Wheeler,2023,10.6,,Male
+31,Nebraska,31183,Wheeler,2023,9.6,,Female
+31,Nebraska,31185,York,2023,11.1,,Male
+31,Nebraska,31185,York,2023,15.3,,Female
+34,New Jersey,34001,Atlantic,2023,45.1,,Male
+34,New Jersey,34001,Atlantic,2023,49.4,,Female
+34,New Jersey,34003,Bergen,2023,76.9,,Male
+34,New Jersey,34003,Bergen,2023,79.3,,Female
+34,New Jersey,34005,Burlington,2023,43.4,,Male
+34,New Jersey,34005,Burlington,2023,47,,Female
+34,New Jersey,34007,Camden,2023,53.5,,Male
+34,New Jersey,34007,Camden,2023,55.5,,Female
+34,New Jersey,34009,Cape May,2023,55.9,,Male
+34,New Jersey,34009,Cape May,2023,63.2,,Female
+34,New Jersey,34011,Cumberland,2023,42.8,,Male
+34,New Jersey,34011,Cumberland,2023,49,,Female
+34,New Jersey,34013,Essex,2023,41.4,,Male
+34,New Jersey,34013,Essex,2023,47.1,,Female
+34,New Jersey,34015,Gloucester,2023,55.6,,Male
+34,New Jersey,34015,Gloucester,2023,62,,Female
+34,New Jersey,34017,Hudson,2023,64.8,,Male
+34,New Jersey,34017,Hudson,2023,66.5,,Female
+34,New Jersey,34019,Hunterdon,2023,25.7,,Male
+34,New Jersey,34019,Hunterdon,2023,29.4,,Female
+34,New Jersey,34021,Mercer,2023,32.4,,Male
+34,New Jersey,34021,Mercer,2023,34.3,,Female
+34,New Jersey,34023,Middlesex,2023,35.1,,Male
+34,New Jersey,34023,Middlesex,2023,38.7,,Female
+34,New Jersey,34025,Monmouth,2023,44.2,,Male
+34,New Jersey,34025,Monmouth,2023,45.2,,Female
+34,New Jersey,34027,Morris,2023,41.8,,Male
+34,New Jersey,34027,Morris,2023,47.4,,Female
+34,New Jersey,34029,Ocean,2023,35.3,,Male
+34,New Jersey,34029,Ocean,2023,37.1,,Female
+34,New Jersey,34031,Passaic,2023,38.3,,Male
+34,New Jersey,34031,Passaic,2023,43.5,,Female
+34,New Jersey,34033,Salem,2023,37.2,,Male
+34,New Jersey,34033,Salem,2023,46.9,,Female
+34,New Jersey,34035,Somerset,2023,30.5,,Male
+34,New Jersey,34035,Somerset,2023,33.6,,Female
+34,New Jersey,34037,Sussex,2023,33.9,,Male
+34,New Jersey,34037,Sussex,2023,38.8,,Female
+34,New Jersey,34039,Union,2023,40.3,,Male
+34,New Jersey,34039,Union,2023,45.5,,Female
+34,New Jersey,34041,Warren,2023,20.1,,Male
+34,New Jersey,34041,Warren,2023,21.3,,Female
+36,New York,36001,Albany,2023,32.1,,Male
+36,New York,36001,Albany,2023,31.9,,Female
+36,New York,36003,Allegany,2023,25.6,,Male
+36,New York,36003,Allegany,2023,34.3,,Female
+36,New York,36005,Bronx,2023,73.3,,Male
+36,New York,36005,Bronx,2023,72.3,,Female
+36,New York,36007,Broome,2023,28.8,,Male
+36,New York,36007,Broome,2023,38.8,,Female
+36,New York,36009,Cattaraugus,2023,37,,Male
+36,New York,36009,Cattaraugus,2023,39.4,,Female
+36,New York,36011,Cayuga,2023,29.8,,Male
+36,New York,36011,Cayuga,2023,35.8,,Female
+36,New York,36013,Chautauqua,2023,37.9,,Male
+36,New York,36013,Chautauqua,2023,39.6,,Female
+36,New York,36015,Chemung,2023,24.9,,Male
+36,New York,36015,Chemung,2023,29.9,,Female
+36,New York,36017,Chenango,2023,28.9,,Male
+36,New York,36017,Chenango,2023,38.4,,Female
+36,New York,36019,Clinton,2023,30.9,,Male
+36,New York,36019,Clinton,2023,42.4,,Female
+36,New York,36021,Columbia,2023,38.8,,Male
+36,New York,36021,Columbia,2023,39,,Female
+36,New York,36023,Cortland,2023,31.8,,Male
+36,New York,36023,Cortland,2023,35.6,,Female
+36,New York,36025,Delaware,2023,36.8,,Male
+36,New York,36025,Delaware,2023,43.3,,Female
+36,New York,36027,Dutchess,2023,34.4,,Male
+36,New York,36027,Dutchess,2023,37.3,,Female
+36,New York,36029,Erie,2023,36.8,,Male
+36,New York,36029,Erie,2023,39.7,,Female
+36,New York,36031,Essex,2023,23.8,,Male
+36,New York,36031,Essex,2023,36.8,,Female
+36,New York,36033,Franklin,2023,30.7,,Male
+36,New York,36033,Franklin,2023,42.2,,Female
+36,New York,36035,Fulton,2023,26,,Male
+36,New York,36035,Fulton,2023,29.4,,Female
+36,New York,36037,Genesee,2023,40.7,,Male
+36,New York,36037,Genesee,2023,44.3,,Female
+36,New York,36039,Greene,2023,38.9,,Male
+36,New York,36039,Greene,2023,37.7,,Female
+36,New York,36041,Hamilton,2023,24.3,,Male
+36,New York,36041,Hamilton,2023,30,,Female
+36,New York,36043,Herkimer,2023,34.2,,Male
+36,New York,36043,Herkimer,2023,39.5,,Female
+36,New York,36045,Jefferson,2023,25.2,,Male
+36,New York,36045,Jefferson,2023,37.5,,Female
+36,New York,36047,Kings,2023,70.1,,Male
+36,New York,36047,Kings,2023,69.8,,Female
+36,New York,36049,Lewis,2023,27.1,,Male
+36,New York,36049,Lewis,2023,36.5,,Female
+36,New York,36051,Livingston,2023,40.5,,Male
+36,New York,36051,Livingston,2023,46.1,,Female
+36,New York,36053,Madison,2023,32.7,,Male
+36,New York,36053,Madison,2023,37.7,,Female
+36,New York,36055,Monroe,2023,41.5,,Male
+36,New York,36055,Monroe,2023,46.5,,Female
+36,New York,36057,Montgomery,2023,29.2,,Male
+36,New York,36057,Montgomery,2023,33.2,,Female
+36,New York,36059,Nassau,2023,63.9,,Male
+36,New York,36059,Nassau,2023,64.8,,Female
+36,New York,36061,New York,2023,82.1,,Male
+36,New York,36061,New York,2023,82.1,,Female
+36,New York,36063,Niagara,2023,37,,Male
+36,New York,36063,Niagara,2023,40.3,,Female
+36,New York,36065,Oneida,2023,26.3,,Male
+36,New York,36065,Oneida,2023,31.9,,Female
+36,New York,36067,Onondaga,2023,32.7,,Male
+36,New York,36067,Onondaga,2023,36.2,,Female
+36,New York,36069,Ontario,2023,39.8,,Male
+36,New York,36069,Ontario,2023,45.5,,Female
+36,New York,36071,Orange,2023,37,,Male
+36,New York,36071,Orange,2023,43.4,,Female
+36,New York,36073,Orleans,2023,45.2,,Male
+36,New York,36073,Orleans,2023,50.5,,Female
+36,New York,36075,Oswego,2023,31.3,,Male
+36,New York,36075,Oswego,2023,36.6,,Female
+36,New York,36077,Otsego,2023,31.5,,Male
+36,New York,36077,Otsego,2023,38.4,,Female
+36,New York,36079,Putnam,2023,36.9,,Male
+36,New York,36079,Putnam,2023,40,,Female
+36,New York,36081,Queens,2023,78.2,,Male
+36,New York,36081,Queens,2023,77.9,,Female
+36,New York,36083,Rensselaer,2023,29.8,,Male
+36,New York,36083,Rensselaer,2023,29.4,,Female
+36,New York,36085,Richmond,2023,57.1,,Male
+36,New York,36085,Richmond,2023,59.2,,Female
+36,New York,36087,Rockland,2023,36.5,,Male
+36,New York,36087,Rockland,2023,40.5,,Female
+36,New York,36091,Saratoga,2023,33.6,,Male
+36,New York,36091,Saratoga,2023,35.2,,Female
+36,New York,36093,Schenectady,2023,35.1,,Male
+36,New York,36093,Schenectady,2023,36.2,,Female
+36,New York,36095,Schoharie,2023,41.2,,Male
+36,New York,36095,Schoharie,2023,42.3,,Female
+36,New York,36097,Schuyler,2023,25.6,,Male
+36,New York,36097,Schuyler,2023,31.7,,Female
+36,New York,36099,Seneca,2023,22.2,,Male
+36,New York,36099,Seneca,2023,27.2,,Female
+36,New York,36089,St. Lawrence,2023,25.3,,Male
+36,New York,36089,St. Lawrence,2023,38.6,,Female
+36,New York,36101,Steuben,2023,26.3,,Male
+36,New York,36101,Steuben,2023,35,,Female
+36,New York,36103,Suffolk,2023,35.1,,Male
+36,New York,36103,Suffolk,2023,36,,Female
+36,New York,36105,Sullivan,2023,41,,Male
+36,New York,36105,Sullivan,2023,45.7,,Female
+36,New York,36107,Tioga,2023,27.7,,Male
+36,New York,36107,Tioga,2023,33.3,,Female
+36,New York,36109,Tompkins,2023,24.5,,Male
+36,New York,36109,Tompkins,2023,28.3,,Female
+36,New York,36111,Ulster,2023,38.4,,Male
+36,New York,36111,Ulster,2023,43,,Female
+36,New York,36113,Warren,2023,15.7,,Male
+36,New York,36113,Warren,2023,21.9,,Female
+36,New York,36115,Washington,2023,20,,Male
+36,New York,36115,Washington,2023,23.1,,Female
+36,New York,36117,Wayne,2023,41.8,,Male
+36,New York,36117,Wayne,2023,46.8,,Female
+36,New York,36119,Westchester,2023,64.4,,Male
+36,New York,36119,Westchester,2023,66.7,,Female
+36,New York,36121,Wyoming,2023,35.4,,Male
+36,New York,36121,Wyoming,2023,38.3,,Female
+36,New York,36123,Yates,2023,21.5,,Male
+36,New York,36123,Yates,2023,30.3,,Female
+37,North Carolina,37001,Alamance,2023,28.7,,Male
+37,North Carolina,37001,Alamance,2023,30,,Female
+37,North Carolina,37003,Alexander,2023,19.7,,Male
+37,North Carolina,37003,Alexander,2023,24.5,,Female
+37,North Carolina,37005,Alleghany,2023,24.3,,Male
+37,North Carolina,37005,Alleghany,2023,24.6,,Female
+37,North Carolina,37007,Anson,2023,31.3,,Male
+37,North Carolina,37007,Anson,2023,35.3,,Female
+37,North Carolina,37009,Ashe,2023,20.2,,Male
+37,North Carolina,37009,Ashe,2023,23,,Female
+37,North Carolina,37011,Avery,2023,22.8,,Male
+37,North Carolina,37011,Avery,2023,30.9,,Female
+37,North Carolina,37013,Beaufort,2023,37.2,,Male
+37,North Carolina,37013,Beaufort,2023,36.8,,Female
+37,North Carolina,37015,Bertie,2023,60,,Male
+37,North Carolina,37015,Bertie,2023,51.6,,Female
+37,North Carolina,37017,Bladen,2023,56,,Male
+37,North Carolina,37017,Bladen,2023,60.5,,Female
+37,North Carolina,37019,Brunswick,2023,31.1,,Male
+37,North Carolina,37019,Brunswick,2023,34.9,,Female
+37,North Carolina,37021,Buncombe,2023,19.6,,Male
+37,North Carolina,37021,Buncombe,2023,23,,Female
+37,North Carolina,37023,Burke,2023,26.5,,Male
+37,North Carolina,37023,Burke,2023,34.9,,Female
+37,North Carolina,37025,Cabarrus,2023,30.8,,Male
+37,North Carolina,37025,Cabarrus,2023,34,,Female
+37,North Carolina,37027,Caldwell,2023,19.5,,Male
+37,North Carolina,37027,Caldwell,2023,25.8,,Female
+37,North Carolina,37029,Camden,2023,34.2,,Male
+37,North Carolina,37029,Camden,2023,44.5,,Female
+37,North Carolina,37031,Carteret,2023,22.1,,Male
+37,North Carolina,37031,Carteret,2023,30.5,,Female
+37,North Carolina,37033,Caswell,2023,27.4,,Male
+37,North Carolina,37033,Caswell,2023,27.4,,Female
+37,North Carolina,37035,Catawba,2023,18.5,,Male
+37,North Carolina,37035,Catawba,2023,24.6,,Female
+37,North Carolina,37037,Chatham,2023,28.1,,Male
+37,North Carolina,37037,Chatham,2023,27.2,,Female
+37,North Carolina,37039,Cherokee,2023,24.5,,Male
+37,North Carolina,37039,Cherokee,2023,26.3,,Female
+37,North Carolina,37041,Chowan,2023,55.3,,Male
+37,North Carolina,37041,Chowan,2023,47,,Female
+37,North Carolina,37043,Clay,2023,26.4,,Male
+37,North Carolina,37043,Clay,2023,27.4,,Female
+37,North Carolina,37045,Cleveland,2023,26.5,,Male
+37,North Carolina,37045,Cleveland,2023,33.6,,Female
+37,North Carolina,37047,Columbus,2023,39.4,,Male
+37,North Carolina,37047,Columbus,2023,45,,Female
+37,North Carolina,37049,Craven,2023,40.6,,Male
+37,North Carolina,37049,Craven,2023,41.7,,Female
+37,North Carolina,37051,Cumberland,2023,50.2,,Male
+37,North Carolina,37051,Cumberland,2023,54.2,,Female
+37,North Carolina,37053,Currituck,2023,11.6,,Male
+37,North Carolina,37053,Currituck,2023,16.1,,Female
+37,North Carolina,37055,Dare,2023,10.7,,Male
+37,North Carolina,37055,Dare,2023,15.6,,Female
+37,North Carolina,37057,Davidson,2023,30.7,,Male
+37,North Carolina,37057,Davidson,2023,35.8,,Female
+37,North Carolina,37059,Davie,2023,27,,Male
+37,North Carolina,37059,Davie,2023,32.8,,Female
+37,North Carolina,37061,Duplin,2023,37.8,,Male
+37,North Carolina,37061,Duplin,2023,47.3,,Female
+37,North Carolina,37063,Durham,2023,29.1,,Male
+37,North Carolina,37063,Durham,2023,28,,Female
+37,North Carolina,37065,Edgecombe,2023,58.9,,Male
+37,North Carolina,37065,Edgecombe,2023,53.3,,Female
+37,North Carolina,37067,Forsyth,2023,31.3,,Male
+37,North Carolina,37067,Forsyth,2023,35.5,,Female
+37,North Carolina,37069,Franklin,2023,33.6,,Male
+37,North Carolina,37069,Franklin,2023,34,,Female
+37,North Carolina,37071,Gaston,2023,32.7,,Male
+37,North Carolina,37071,Gaston,2023,35.6,,Female
+37,North Carolina,37073,Gates,2023,59,,Male
+37,North Carolina,37073,Gates,2023,55.8,,Female
+37,North Carolina,37075,Graham,2023,24.1,,Male
+37,North Carolina,37075,Graham,2023,27.2,,Female
+37,North Carolina,37077,Granville,2023,31.8,,Male
+37,North Carolina,37077,Granville,2023,31.5,,Female
+37,North Carolina,37079,Greene,2023,54.9,,Male
+37,North Carolina,37079,Greene,2023,51.9,,Female
+37,North Carolina,37081,Guilford,2023,30.9,,Male
+37,North Carolina,37081,Guilford,2023,33.9,,Female
+37,North Carolina,37083,Halifax,2023,59.8,,Male
+37,North Carolina,37083,Halifax,2023,60.7,,Female
+37,North Carolina,37085,Harnett,2023,35.5,,Male
+37,North Carolina,37085,Harnett,2023,36,,Female
+37,North Carolina,37087,Haywood,2023,17.3,,Male
+37,North Carolina,37087,Haywood,2023,20.9,,Female
+37,North Carolina,37089,Henderson,2023,24.6,,Male
+37,North Carolina,37089,Henderson,2023,29.2,,Female
+37,North Carolina,37091,Hertford,2023,61.1,,Male
+37,North Carolina,37091,Hertford,2023,54.9,,Female
+37,North Carolina,37093,Hoke,2023,54.9,,Male
+37,North Carolina,37093,Hoke,2023,59.3,,Female
+37,North Carolina,37095,Hyde,2023,21.4,,Male
+37,North Carolina,37095,Hyde,2023,20.6,,Female
+37,North Carolina,37097,Iredell,2023,29.7,,Male
+37,North Carolina,37097,Iredell,2023,33.2,,Female
+37,North Carolina,37099,Jackson,2023,24.3,,Male
+37,North Carolina,37099,Jackson,2023,30.4,,Female
+37,North Carolina,37101,Johnston,2023,34.7,,Male
+37,North Carolina,37101,Johnston,2023,34.4,,Female
+37,North Carolina,37103,Jones,2023,30.7,,Male
+37,North Carolina,37103,Jones,2023,38.8,,Female
+37,North Carolina,37105,Lee,2023,26.1,,Male
+37,North Carolina,37105,Lee,2023,27.6,,Female
+37,North Carolina,37107,Lenoir,2023,46.9,,Male
+37,North Carolina,37107,Lenoir,2023,48.7,,Female
+37,North Carolina,37109,Lincoln,2023,31.9,,Male
+37,North Carolina,37109,Lincoln,2023,35.6,,Female
+37,North Carolina,37113,Macon,2023,22.7,,Male
+37,North Carolina,37113,Macon,2023,30.3,,Female
+37,North Carolina,37115,Madison,2023,16.5,,Male
+37,North Carolina,37115,Madison,2023,18.2,,Female
+37,North Carolina,37117,Martin,2023,53.2,,Male
+37,North Carolina,37117,Martin,2023,49,,Female
+37,North Carolina,37111,McDowell,2023,23,,Male
+37,North Carolina,37111,McDowell,2023,27,,Female
+37,North Carolina,37119,Mecklenburg,2023,28.6,,Male
+37,North Carolina,37119,Mecklenburg,2023,31.7,,Female
+37,North Carolina,37121,Mitchell,2023,33.2,,Male
+37,North Carolina,37121,Mitchell,2023,37.5,,Female
+37,North Carolina,37123,Montgomery,2023,30.9,,Male
+37,North Carolina,37123,Montgomery,2023,36.1,,Female
+37,North Carolina,37125,Moore,2023,43.1,,Male
+37,North Carolina,37125,Moore,2023,45.7,,Female
+37,North Carolina,37127,Nash,2023,36,,Male
+37,North Carolina,37127,Nash,2023,35,,Female
+37,North Carolina,37129,New Hanover,2023,22.8,,Male
+37,North Carolina,37129,New Hanover,2023,25.6,,Female
+37,North Carolina,37131,Northampton,2023,60.3,,Male
+37,North Carolina,37131,Northampton,2023,61.5,,Female
+37,North Carolina,37133,Onslow,2023,22.3,,Male
+37,North Carolina,37133,Onslow,2023,31.2,,Female
+37,North Carolina,37135,Orange,2023,28.1,,Male
+37,North Carolina,37135,Orange,2023,26.6,,Female
+37,North Carolina,37137,Pamlico,2023,25.4,,Male
+37,North Carolina,37137,Pamlico,2023,28.3,,Female
+37,North Carolina,37139,Pasquotank,2023,46.1,,Male
+37,North Carolina,37139,Pasquotank,2023,58.5,,Female
+37,North Carolina,37141,Pender,2023,28.4,,Male
+37,North Carolina,37141,Pender,2023,33.4,,Female
+37,North Carolina,37143,Perquimans,2023,61.2,,Male
+37,North Carolina,37143,Perquimans,2023,57.5,,Female
+37,North Carolina,37145,Person,2023,29.3,,Male
+37,North Carolina,37145,Person,2023,28.6,,Female
+37,North Carolina,37147,Pitt,2023,53.7,,Male
+37,North Carolina,37147,Pitt,2023,51,,Female
+37,North Carolina,37149,Polk,2023,27.9,,Male
+37,North Carolina,37149,Polk,2023,33.7,,Female
+37,North Carolina,37151,Randolph,2023,29,,Male
+37,North Carolina,37151,Randolph,2023,31.7,,Female
+37,North Carolina,37153,Richmond,2023,39.1,,Male
+37,North Carolina,37153,Richmond,2023,46.3,,Female
+37,North Carolina,37155,Robeson,2023,51.7,,Male
+37,North Carolina,37155,Robeson,2023,56.8,,Female
+37,North Carolina,37157,Rockingham,2023,32.1,,Male
+37,North Carolina,37157,Rockingham,2023,35.2,,Female
+37,North Carolina,37159,Rowan,2023,24.9,,Male
+37,North Carolina,37159,Rowan,2023,32.6,,Female
+37,North Carolina,37161,Rutherford,2023,27,,Male
+37,North Carolina,37161,Rutherford,2023,31.8,,Female
+37,North Carolina,37163,Sampson,2023,45.8,,Male
+37,North Carolina,37163,Sampson,2023,48.8,,Female
+37,North Carolina,37165,Scotland,2023,44.7,,Male
+37,North Carolina,37165,Scotland,2023,49.6,,Female
+37,North Carolina,37167,Stanly,2023,29.5,,Male
+37,North Carolina,37167,Stanly,2023,35.4,,Female
+37,North Carolina,37169,Stokes,2023,32.5,,Male
+37,North Carolina,37169,Stokes,2023,35.7,,Female
+37,North Carolina,37171,Surry,2023,29.1,,Male
+37,North Carolina,37171,Surry,2023,32.3,,Female
+37,North Carolina,37173,Swain,2023,20.7,,Male
+37,North Carolina,37173,Swain,2023,25.4,,Female
+37,North Carolina,37175,Transylvania,2023,25.6,,Male
+37,North Carolina,37175,Transylvania,2023,31.6,,Female
+37,North Carolina,37177,Tyrrell,2023,29.8,,Male
+37,North Carolina,37177,Tyrrell,2023,37.7,,Female
+37,North Carolina,37179,Union,2023,32.1,,Male
+37,North Carolina,37179,Union,2023,34.5,,Female
+37,North Carolina,37181,Vance,2023,46.2,,Male
+37,North Carolina,37181,Vance,2023,51.8,,Female
+37,North Carolina,37183,Wake,2023,31.1,,Male
+37,North Carolina,37183,Wake,2023,30.8,,Female
+37,North Carolina,37185,Warren,2023,58,,Male
+37,North Carolina,37185,Warren,2023,61.7,,Female
+37,North Carolina,37187,Washington,2023,44.1,,Male
+37,North Carolina,37187,Washington,2023,38.8,,Female
+37,North Carolina,37189,Watauga,2023,21,,Male
+37,North Carolina,37189,Watauga,2023,27.5,,Female
+37,North Carolina,37191,Wayne,2023,48.2,,Male
+37,North Carolina,37191,Wayne,2023,49,,Female
+37,North Carolina,37193,Wilkes,2023,18.9,,Male
+37,North Carolina,37193,Wilkes,2023,22.8,,Female
+37,North Carolina,37195,Wilson,2023,47.5,,Male
+37,North Carolina,37195,Wilson,2023,46.6,,Female
+37,North Carolina,37197,Yadkin,2023,26.5,,Male
+37,North Carolina,37197,Yadkin,2023,30,,Female
+37,North Carolina,37199,Yancey,2023,20.8,,Male
+37,North Carolina,37199,Yancey,2023,22.5,,Female
+41,Oregon,41001,Baker,2023,19,,Male
+41,Oregon,41001,Baker,2023,31.6,,Female
+41,Oregon,41003,Benton,2023,27.7,,Male
+41,Oregon,41003,Benton,2023,31,,Female
+41,Oregon,41005,Clackamas,2023,25.6,,Male
+41,Oregon,41005,Clackamas,2023,27.6,,Female
+41,Oregon,41007,Clatsop,2023,22.1,,Male
+41,Oregon,41007,Clatsop,2023,24.5,,Female
+41,Oregon,41009,Columbia,2023,26.4,,Male
+41,Oregon,41009,Columbia,2023,27.3,,Female
+41,Oregon,41011,Coos,2023,34.5,,Male
+41,Oregon,41011,Coos,2023,42.3,,Female
+41,Oregon,41013,Crook,2023,22.6,,Male
+41,Oregon,41013,Crook,2023,28.6,,Female
+41,Oregon,41015,Curry,2023,32.1,,Male
+41,Oregon,41015,Curry,2023,39.8,,Female
+41,Oregon,41017,Deschutes,2023,27.2,,Male
+41,Oregon,41017,Deschutes,2023,31.7,,Female
+41,Oregon,41019,Douglas,2023,29.2,,Male
+41,Oregon,41019,Douglas,2023,33.2,,Female
+41,Oregon,41021,Gilliam,2023,26.1,,Male
+41,Oregon,41021,Gilliam,2023,20.8,,Female
+41,Oregon,41023,Grant,2023,25.1,,Male
+41,Oregon,41023,Grant,2023,32.1,,Female
+41,Oregon,41025,Harney,2023,17.8,,Male
+41,Oregon,41025,Harney,2023,24.5,,Female
+41,Oregon,41027,Hood River,2023,27.4,,Male
+41,Oregon,41027,Hood River,2023,27.6,,Female
+41,Oregon,41029,Jackson,2023,26.6,,Male
+41,Oregon,41029,Jackson,2023,32.1,,Female
+41,Oregon,41031,Jefferson,2023,24.6,,Male
+41,Oregon,41031,Jefferson,2023,30.2,,Female
+41,Oregon,41033,Josephine,2023,26.6,,Male
+41,Oregon,41033,Josephine,2023,31.4,,Female
+41,Oregon,41035,Klamath,2023,26.1,,Male
+41,Oregon,41035,Klamath,2023,29,,Female
+41,Oregon,41037,Lake,2023,20.1,,Male
+41,Oregon,41037,Lake,2023,27.9,,Female
+41,Oregon,41039,Lane,2023,26.2,,Male
+41,Oregon,41039,Lane,2023,29.9,,Female
+41,Oregon,41041,Lincoln,2023,28.4,,Male
+41,Oregon,41041,Lincoln,2023,30.6,,Female
+41,Oregon,41043,Linn,2023,25.6,,Male
+41,Oregon,41043,Linn,2023,29.4,,Female
+41,Oregon,41045,Malheur,2023,18.8,,Male
+41,Oregon,41045,Malheur,2023,35.3,,Female
+41,Oregon,41047,Marion,2023,24.9,,Male
+41,Oregon,41047,Marion,2023,30.2,,Female
+41,Oregon,41049,Morrow,2023,31,,Male
+41,Oregon,41049,Morrow,2023,34.3,,Female
+41,Oregon,41051,Multnomah,2023,25.3,,Male
+41,Oregon,41051,Multnomah,2023,26.1,,Female
+41,Oregon,41053,Polk,2023,25.3,,Male
+41,Oregon,41053,Polk,2023,31.7,,Female
+41,Oregon,41055,Sherman,2023,22.7,,Male
+41,Oregon,41055,Sherman,2023,25,,Female
+41,Oregon,41057,Tillamook,2023,23.4,,Male
+41,Oregon,41057,Tillamook,2023,27.2,,Female
+41,Oregon,41059,Umatilla,2023,29.2,,Male
+41,Oregon,41059,Umatilla,2023,33.5,,Female
+41,Oregon,41061,Union,2023,28,,Male
+41,Oregon,41061,Union,2023,35.1,,Female
+41,Oregon,41063,Wallowa,2023,27,,Male
+41,Oregon,41063,Wallowa,2023,33.3,,Female
+41,Oregon,41065,Wasco,2023,24.9,,Male
+41,Oregon,41065,Wasco,2023,28.3,,Female
+41,Oregon,41067,Washington,2023,25.4,,Male
+41,Oregon,41067,Washington,2023,27,,Female
+41,Oregon,41069,Wheeler,2023,36.2,,Male
+41,Oregon,41069,Wheeler,2023,41.6,,Female
+41,Oregon,41071,Yamhill,2023,23.3,,Male
+41,Oregon,41071,Yamhill,2023,27,,Female
+44,Rhode Island,44001,Bristol,2023,33,,Male
+44,Rhode Island,44001,Bristol,2023,32.2,,Female
+44,Rhode Island,44003,Kent,2023,34,,Male
+44,Rhode Island,44003,Kent,2023,36,,Female
+44,Rhode Island,44005,Newport,2023,20.4,,Male
+44,Rhode Island,44005,Newport,2023,23.7,,Female
+44,Rhode Island,44007,Providence,2023,35.2,,Male
+44,Rhode Island,44007,Providence,2023,35.8,,Female
+44,Rhode Island,44009,Washington,2023,30.2,,Male
+44,Rhode Island,44009,Washington,2023,32.2,,Female
+45,South Carolina,45001,Abbeville,2023,29.3,,Male
+45,South Carolina,45001,Abbeville,2023,34.9,,Female
+45,South Carolina,45003,Aiken,2023,28.1,,Male
+45,South Carolina,45003,Aiken,2023,31.3,,Female
+45,South Carolina,45005,Allendale,2023,64.4,,Male
+45,South Carolina,45005,Allendale,2023,73.5,,Female
+45,South Carolina,45007,Anderson,2023,27.9,,Male
+45,South Carolina,45007,Anderson,2023,33.6,,Female
+45,South Carolina,45009,Bamberg,2023,59.1,,Male
+45,South Carolina,45009,Bamberg,2023,61.8,,Female
+45,South Carolina,45011,Barnwell,2023,34.3,,Male
+45,South Carolina,45011,Barnwell,2023,40.7,,Female
+45,South Carolina,45013,Beaufort,2023,34.9,,Male
+45,South Carolina,45013,Beaufort,2023,49.5,,Female
+45,South Carolina,45015,Berkeley,2023,40.4,,Male
+45,South Carolina,45015,Berkeley,2023,44.4,,Female
+45,South Carolina,45017,Calhoun,2023,39.9,,Male
+45,South Carolina,45017,Calhoun,2023,40.6,,Female
+45,South Carolina,45019,Charleston,2023,39.5,,Male
+45,South Carolina,45019,Charleston,2023,44.8,,Female
+45,South Carolina,45021,Cherokee,2023,28.4,,Male
+45,South Carolina,45021,Cherokee,2023,33.3,,Female
+45,South Carolina,45023,Chester,2023,21.8,,Male
+45,South Carolina,45023,Chester,2023,25.7,,Female
+45,South Carolina,45025,Chesterfield,2023,29.3,,Male
+45,South Carolina,45025,Chesterfield,2023,33,,Female
+45,South Carolina,45027,Clarendon,2023,47.1,,Male
+45,South Carolina,45027,Clarendon,2023,53.7,,Female
+45,South Carolina,45029,Colleton,2023,39,,Male
+45,South Carolina,45029,Colleton,2023,42.3,,Female
+45,South Carolina,45031,Darlington,2023,35.1,,Male
+45,South Carolina,45031,Darlington,2023,47,,Female
+45,South Carolina,45033,Dillon,2023,46.2,,Male
+45,South Carolina,45033,Dillon,2023,51.1,,Female
+45,South Carolina,45035,Dorchester,2023,40.3,,Male
+45,South Carolina,45035,Dorchester,2023,45.4,,Female
+45,South Carolina,45037,Edgefield,2023,24.3,,Male
+45,South Carolina,45037,Edgefield,2023,37.2,,Female
+45,South Carolina,45039,Fairfield,2023,38.4,,Male
+45,South Carolina,45039,Fairfield,2023,44.9,,Female
+45,South Carolina,45041,Florence,2023,52.6,,Male
+45,South Carolina,45041,Florence,2023,58.4,,Female
+45,South Carolina,45043,Georgetown,2023,40.2,,Male
+45,South Carolina,45043,Georgetown,2023,45.1,,Female
+45,South Carolina,45045,Greenville,2023,27.6,,Male
+45,South Carolina,45045,Greenville,2023,32.9,,Female
+45,South Carolina,45047,Greenwood,2023,41.1,,Male
+45,South Carolina,45047,Greenwood,2023,44.6,,Female
+45,South Carolina,45049,Hampton,2023,39.1,,Male
+45,South Carolina,45049,Hampton,2023,51,,Female
+45,South Carolina,45051,Horry,2023,43.5,,Male
+45,South Carolina,45051,Horry,2023,46.6,,Female
+45,South Carolina,45053,Jasper,2023,29.9,,Male
+45,South Carolina,45053,Jasper,2023,44.2,,Female
+45,South Carolina,45055,Kershaw,2023,38.9,,Male
+45,South Carolina,45055,Kershaw,2023,45.7,,Female
+45,South Carolina,45057,Lancaster,2023,30.9,,Male
+45,South Carolina,45057,Lancaster,2023,32.9,,Female
+45,South Carolina,45059,Laurens,2023,30.3,,Male
+45,South Carolina,45059,Laurens,2023,35.6,,Female
+45,South Carolina,45061,Lee,2023,45.4,,Male
+45,South Carolina,45061,Lee,2023,53.5,,Female
+45,South Carolina,45063,Lexington,2023,34.5,,Male
+45,South Carolina,45063,Lexington,2023,37.8,,Female
+45,South Carolina,45067,Marion,2023,46.9,,Male
+45,South Carolina,45067,Marion,2023,51.1,,Female
+45,South Carolina,45069,Marlboro,2023,48.5,,Male
+45,South Carolina,45069,Marlboro,2023,55.7,,Female
+45,South Carolina,45065,McCormick,2023,33.9,,Male
+45,South Carolina,45065,McCormick,2023,42.5,,Female
+45,South Carolina,45071,Newberry,2023,37,,Male
+45,South Carolina,45071,Newberry,2023,41.1,,Female
+45,South Carolina,45073,Oconee,2023,24.1,,Male
+45,South Carolina,45073,Oconee,2023,32,,Female
+45,South Carolina,45075,Orangeburg,2023,35.8,,Male
+45,South Carolina,45075,Orangeburg,2023,40,,Female
+45,South Carolina,45077,Pickens,2023,26.6,,Male
+45,South Carolina,45077,Pickens,2023,33.1,,Female
+45,South Carolina,45079,Richland,2023,39.6,,Male
+45,South Carolina,45079,Richland,2023,42,,Female
+45,South Carolina,45081,Saluda,2023,27.9,,Male
+45,South Carolina,45081,Saluda,2023,31.5,,Female
+45,South Carolina,45083,Spartanburg,2023,31.1,,Male
+45,South Carolina,45083,Spartanburg,2023,36.7,,Female
+45,South Carolina,45085,Sumter,2023,44.4,,Male
+45,South Carolina,45085,Sumter,2023,49.3,,Female
+45,South Carolina,45087,Union,2023,29.8,,Male
+45,South Carolina,45087,Union,2023,33.9,,Female
+45,South Carolina,45089,Williamsburg,2023,46.8,,Male
+45,South Carolina,45089,Williamsburg,2023,53.9,,Female
+45,South Carolina,45091,York,2023,32.8,,Male
+45,South Carolina,45091,York,2023,35.7,,Female
+55,Wisconsin,55001,Adams,2023,22.4,,Male
+55,Wisconsin,55001,Adams,2023,32.1,,Female
+55,Wisconsin,55003,Ashland,2023,32.6,,Male
+55,Wisconsin,55003,Ashland,2023,31.6,,Female
+55,Wisconsin,55005,Barron,2023,20,,Male
+55,Wisconsin,55005,Barron,2023,23.4,,Female
+55,Wisconsin,55007,Bayfield,2023,33.1,,Male
+55,Wisconsin,55007,Bayfield,2023,33.7,,Female
+55,Wisconsin,55009,Brown,2023,19.9,,Male
+55,Wisconsin,55009,Brown,2023,24,,Female
+55,Wisconsin,55011,Buffalo,2023,18.5,,Male
+55,Wisconsin,55011,Buffalo,2023,22.5,,Female
+55,Wisconsin,55013,Burnett,2023,27.7,,Male
+55,Wisconsin,55013,Burnett,2023,26.7,,Female
+55,Wisconsin,55015,Calumet,2023,21.1,,Male
+55,Wisconsin,55015,Calumet,2023,24.3,,Female
+55,Wisconsin,55017,Chippewa,2023,19,,Male
+55,Wisconsin,55017,Chippewa,2023,25.3,,Female
+55,Wisconsin,55019,Clark,2023,19.8,,Male
+55,Wisconsin,55019,Clark,2023,25.4,,Female
+55,Wisconsin,55021,Columbia,2023,21.8,,Male
+55,Wisconsin,55021,Columbia,2023,26.2,,Female
+55,Wisconsin,55023,Crawford,2023,19.8,,Male
+55,Wisconsin,55023,Crawford,2023,21,,Female
+55,Wisconsin,55025,Dane,2023,24,,Male
+55,Wisconsin,55025,Dane,2023,28.4,,Female
+55,Wisconsin,55027,Dodge,2023,19.4,,Male
+55,Wisconsin,55027,Dodge,2023,22.4,,Female
+55,Wisconsin,55029,Door,2023,21.8,,Male
+55,Wisconsin,55029,Door,2023,25.1,,Female
+55,Wisconsin,55031,Douglas,2023,34.4,,Male
+55,Wisconsin,55031,Douglas,2023,31.7,,Female
+55,Wisconsin,55033,Dunn,2023,18.6,,Male
+55,Wisconsin,55033,Dunn,2023,23.2,,Female
+55,Wisconsin,55035,Eau Claire,2023,18.3,,Male
+55,Wisconsin,55035,Eau Claire,2023,25.6,,Female
+55,Wisconsin,55037,Florence,2023,15.8,,Male
+55,Wisconsin,55037,Florence,2023,19.4,,Female
+55,Wisconsin,55039,Fond du Lac,2023,20.2,,Male
+55,Wisconsin,55039,Fond du Lac,2023,25,,Female
+55,Wisconsin,55041,Forest,2023,17.3,,Male
+55,Wisconsin,55041,Forest,2023,23.2,,Female
+55,Wisconsin,55043,Grant,2023,24.7,,Male
+55,Wisconsin,55043,Grant,2023,28.6,,Female
+55,Wisconsin,55045,Green,2023,24.1,,Male
+55,Wisconsin,55045,Green,2023,27.2,,Female
+55,Wisconsin,55047,Green Lake,2023,23.2,,Male
+55,Wisconsin,55047,Green Lake,2023,27.5,,Female
+55,Wisconsin,55049,Iowa,2023,22.2,,Male
+55,Wisconsin,55049,Iowa,2023,24,,Female
+55,Wisconsin,55051,Iron,2023,21.5,,Male
+55,Wisconsin,55051,Iron,2023,25.5,,Female
+55,Wisconsin,55053,Jackson,2023,20.7,,Male
+55,Wisconsin,55053,Jackson,2023,26.7,,Female
+55,Wisconsin,55055,Jefferson,2023,21.9,,Male
+55,Wisconsin,55055,Jefferson,2023,25.4,,Female
+55,Wisconsin,55057,Juneau,2023,23.4,,Male
+55,Wisconsin,55057,Juneau,2023,36.1,,Female
+55,Wisconsin,55059,Kenosha,2023,34.8,,Male
+55,Wisconsin,55059,Kenosha,2023,41.1,,Female
+55,Wisconsin,55061,Kewaunee,2023,22.9,,Male
+55,Wisconsin,55061,Kewaunee,2023,27.2,,Female
+55,Wisconsin,55063,La Crosse,2023,20.6,,Male
+55,Wisconsin,55063,La Crosse,2023,27.6,,Female
+55,Wisconsin,55065,Lafayette,2023,20.2,,Male
+55,Wisconsin,55065,Lafayette,2023,22.3,,Female
+55,Wisconsin,55067,Langlade,2023,19.6,,Male
+55,Wisconsin,55067,Langlade,2023,26.7,,Female
+55,Wisconsin,55069,Lincoln,2023,20,,Male
+55,Wisconsin,55069,Lincoln,2023,25.2,,Female
+55,Wisconsin,55071,Manitowoc,2023,20.7,,Male
+55,Wisconsin,55071,Manitowoc,2023,26.6,,Female
+55,Wisconsin,55073,Marathon,2023,19.8,,Male
+55,Wisconsin,55073,Marathon,2023,27.3,,Female
+55,Wisconsin,55075,Marinette,2023,16.8,,Male
+55,Wisconsin,55075,Marinette,2023,20.2,,Female
+55,Wisconsin,55077,Marquette,2023,21,,Male
+55,Wisconsin,55077,Marquette,2023,34.5,,Female
+55,Wisconsin,55078,Menominee,2023,22.2,,Male
+55,Wisconsin,55078,Menominee,2023,28.9,,Female
+55,Wisconsin,55079,Milwaukee,2023,48.2,,Male
+55,Wisconsin,55079,Milwaukee,2023,53.2,,Female
+55,Wisconsin,55081,Monroe,2023,21.8,,Male
+55,Wisconsin,55081,Monroe,2023,28.1,,Female
+55,Wisconsin,55083,Oconto,2023,22.5,,Male
+55,Wisconsin,55083,Oconto,2023,26.3,,Female
+55,Wisconsin,55085,Oneida,2023,18.1,,Male
+55,Wisconsin,55085,Oneida,2023,31.8,,Female
+55,Wisconsin,55087,Outagamie,2023,22.1,,Male
+55,Wisconsin,55087,Outagamie,2023,24.7,,Female
+55,Wisconsin,55089,Ozaukee,2023,46.4,,Male
+55,Wisconsin,55089,Ozaukee,2023,51.5,,Female
+55,Wisconsin,55091,Pepin,2023,19,,Male
+55,Wisconsin,55091,Pepin,2023,24.6,,Female
+55,Wisconsin,55093,Pierce,2023,16.7,,Male
+55,Wisconsin,55093,Pierce,2023,20.4,,Female
+55,Wisconsin,55095,Polk,2023,18.6,,Male
+55,Wisconsin,55095,Polk,2023,20.5,,Female
+55,Wisconsin,55097,Portage,2023,20.9,,Male
+55,Wisconsin,55097,Portage,2023,27.7,,Female
+55,Wisconsin,55099,Price,2023,23.4,,Male
+55,Wisconsin,55099,Price,2023,34.3,,Female
+55,Wisconsin,55101,Racine,2023,49.1,,Male
+55,Wisconsin,55101,Racine,2023,54.5,,Female
+55,Wisconsin,55103,Richland,2023,22.5,,Male
+55,Wisconsin,55103,Richland,2023,28.2,,Female
+55,Wisconsin,55105,Rock,2023,24.5,,Male
+55,Wisconsin,55105,Rock,2023,27.2,,Female
+55,Wisconsin,55107,Rusk,2023,24.8,,Male
+55,Wisconsin,55107,Rusk,2023,27.6,,Female
+55,Wisconsin,55111,Sauk,2023,22,,Male
+55,Wisconsin,55111,Sauk,2023,25.3,,Female
+55,Wisconsin,55113,Sawyer,2023,30.1,,Male
+55,Wisconsin,55113,Sawyer,2023,30,,Female
+55,Wisconsin,55115,Shawano,2023,20.3,,Male
+55,Wisconsin,55115,Shawano,2023,23.6,,Female
+55,Wisconsin,55117,Sheboygan,2023,17.2,,Male
+55,Wisconsin,55117,Sheboygan,2023,21.3,,Female
+55,Wisconsin,55109,St. Croix,2023,18.5,,Male
+55,Wisconsin,55109,St. Croix,2023,21.9,,Female
+55,Wisconsin,55119,Taylor,2023,18.7,,Male
+55,Wisconsin,55119,Taylor,2023,24.8,,Female
+55,Wisconsin,55121,Trempealeau,2023,19.6,,Male
+55,Wisconsin,55121,Trempealeau,2023,24,,Female
+55,Wisconsin,55123,Vernon,2023,22,,Male
+55,Wisconsin,55123,Vernon,2023,27.6,,Female
+55,Wisconsin,55125,Vilas,2023,17.8,,Male
+55,Wisconsin,55125,Vilas,2023,26.6,,Female
+55,Wisconsin,55127,Walworth,2023,27.8,,Male
+55,Wisconsin,55127,Walworth,2023,33.1,,Female
+55,Wisconsin,55129,Washburn,2023,31.2,,Male
+55,Wisconsin,55129,Washburn,2023,30.1,,Female
+55,Wisconsin,55131,Washington,2023,43.9,,Male
+55,Wisconsin,55131,Washington,2023,49.1,,Female
+55,Wisconsin,55133,Waukesha,2023,45,,Male
+55,Wisconsin,55133,Waukesha,2023,50,,Female
+55,Wisconsin,55135,Waupaca,2023,21.4,,Male
+55,Wisconsin,55135,Waupaca,2023,23.5,,Female
+55,Wisconsin,55137,Waushara,2023,25.4,,Male
+55,Wisconsin,55137,Waushara,2023,29.8,,Female
+55,Wisconsin,55139,Winnebago,2023,20.7,,Male
+55,Wisconsin,55139,Winnebago,2023,22.6,,Female
+55,Wisconsin,55141,Wood,2023,21.4,,Male
+55,Wisconsin,55141,Wood,2023,27.6,,Female
